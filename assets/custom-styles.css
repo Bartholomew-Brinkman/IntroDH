@@ -1,0 +1,22 @@
+/* 1. Target links inside the main reading content */
+.ptx-content a.url {
+    color: #FCB614; /* Your gold color */
+    text-decoration: underline;
+}
+
+/* 2. Specifically target links inside Table Cells (which often override defaults) */
+td .ptx-content a.url, 
+td.cell a.url {
+    color: #FCB614 !important; /* !important ensures this beats table defaults */
+}
+
+/* 3. Handle the 'Visited' state so links don't turn purple after clicking */
+.ptx-content a.url:visited {
+    color: #FCB614;
+}
+
+/* 4. Add a hover effect for better accessibility */
+.ptx-content a.url:hover {
+    color: #5192BD; /* Your secondary 'dark' blue color */
+    text-decoration: none;
+}
