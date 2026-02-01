@@ -45,16 +45,9 @@
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
   <source>
-    <!-- Paths to folders containing external assets and generated assets -->
-    <!-- relative to your main source file.                               -->
+
     <directories external="../assets" generated="../generated-assets" />
-
-    <!-- Set which marked elements are included in this version: -->
-    <!-- See
-    https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
-    <!-- In this example, we include the w1s components from the sample activity to show solutions. -->
-      <version include="w1s"/>
-
+    
   </source>
 
   <numbering>
@@ -151,7 +144,7 @@
         secondary-color="#000000"
         primary-color-dark="#5192BD"
         provide-dark-mode="yes"
-        source="custom-styles.css"
+        source="../assets/custom-styles.css"
    />
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search

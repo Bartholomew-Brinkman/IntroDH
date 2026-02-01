@@ -2,7 +2,7 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
   <docinfo/>
   <article xml:id="doc-1">
-    <title>Introduction to Digital Humanities</title>
+    <title>DGHM 110: Introduction to Digital Humanities (Spring 2026)</title>
 
     
     <introduction>
@@ -80,9 +80,9 @@
       <title>Course Texts and Additional Resources</title>
       
       
-            <p>**Required Text:** Ahmed Bouchentouf: *The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction* (breadbooks, 2025)</p>
-      <p>**Optional Text:** Johanna Drucker, *The Digital Humanities Coursebook: An Introduction to Digital Methods for Research and Scholarship* (Routledge, 2021). I have scanned relevant chapters and have made these available through Canvas, but you may choose to purchase a hard copy if you prefer.</p>
-      <p>**Additional course materials:** These include online readings, digital tools, and DH projects, which are all freely available online. Links are provided in the syllabus and on our course Canvas site.</p>
+            <p><em>Required Text:</em> Ahmed Bouchentouf: <em>The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction</em> (breadbooks, 2025)</p>
+      <p><em>Optional Text:</em> Johanna Drucker, <em>The Digital Humanities Coursebook: An Introduction to Digital Methods for Research and Scholarship</em> (Routledge, 2021). I have scanned relevant chapters and have made these available through Canvas, but you may choose to purchase a hard copy if you prefer.</p>
+      <p><em>Additional course materials:</em> These include online readings, digital tools, and DH projects, which are all freely available online. Links are provided in the syllabus and on our course Canvas site.</p>
 
 
       
@@ -131,13 +131,13 @@
           <cell>20%</cell>
         </row>
       </tabular>
-      <p>*Prompt Engineering*: You will have an opportunity to practice AI prompt engineering in depth as you create a text-based product (e.g. a lesson plan or a podcast script).</p>
-      <p>*StoryMap Essay*: Near the end of the semester, you will have an opportunity to create an online multimedia essay using ArcGIS StoryMaps.</p>
-      <p>*Midterm Exam*: Near the midpoint of the semester, you will have an opportunity to demonstrate your knowledge of digital humanities topics as you take an in-class midterm exam.</p>
-      <p>*Final Exam*: At the end of the semester, you will have an opportunity to demonstrate your comprehensive knowledge of digital humanities topics, as you take a final exam.</p>
-      <p>*Quizzes*: You will be responsible for multiple Canvas quizzes over the course of the semester. These quizzes are designed to help you identify core concepts from the assigned reading that will allow you to effectively participate in class discussion and activities. You will have an opportunity to drop some of your lowest scores (or choose to not take some quizzes).</p>
-      <p>*Responses*: You will have many opportunities to submit Canvas responses over the course of the semester. These responses will be low-stakes opportunities to try out a variety of DH tools and methods, and to reflect on these methods. These responses will often be started in class, arising from and providing a basis for further class discussion. You will have an opportunity to drop some of your lowest scores (or choose to not complete all responses).</p>
-      <p>*Attendance and Class Participation***:** This portion of your grade is designed to help ensure regular and timely attendance, as well as full participation in class conversation and activities, while acknowledging occasional extenuating circumstances. Attendance and participation are worth 20% of your final grade and you will receive an attendance and participation grade at both the midpoint and conclusion of the semester.</p>
+      <p><em>Prompt Engineering</em>: You will have an opportunity to practice AI prompt engineering in depth as you create a text-based product (e.g. a lesson plan or a podcast script).</p>
+      <p><em>StoryMap Essay</em>: Near the end of the semester, you will have an opportunity to create an online multimedia essay using ArcGIS StoryMaps. Steps will include researching a topic, writing text, gathering or generating images and other multimedia elements, and making decisions about web design.</p>
+      <p><em>Midterm Exam</em>: Near the midpoint of the semester, you will have an opportunity to demonstrate your knowledge of digital humanities topics as you take an in-class midterm exam.</p>
+      <p><em>Final Exam</em>: At the end of the semester, you will have an opportunity to demonstrate your comprehensive knowledge of digital humanities topics, as you take a final exam.</p>
+      <p><em>Quizzes</em>: You will be responsible for multiple Canvas quizzes over the course of the semester. These quizzes are designed to help you identify core concepts from the assigned reading that will allow you to effectively participate in class discussion and activities. You will have an opportunity to drop some of your lowest scores (or choose to not take some quizzes).</p>
+      <p><em>Responses</em>: You will have many opportunities to submit Canvas responses over the course of the semester. These responses will be low-stakes opportunities to try out a variety of DH tools and methods, and to reflect on these methods. These responses will often be started in class, arising from and providing a basis for further class discussion. You will have an opportunity to drop some of your lowest scores (or choose to not complete all responses).</p>
+      <p><em>Attendance and Class Participation</em><em>:</em> This portion of your grade is designed to help ensure regular and timely attendance, as well as full participation in class conversation and activities, while acknowledging occasional extenuating circumstances. Attendance and participation are worth 20% of your final grade and you will receive an attendance and participation grade at both the midpoint and conclusion of the semester.</p>
 
 
       
@@ -153,10 +153,10 @@
       
       
             <p>Because this is a cumulative course in which content and skills build off of what we have previously learned, it is important for your own intellectual progress and for that of your classmates that you submit all assignments (including quizzes and responses) on time and for these same reasons, I am dedicated to providing timely feedback. In particular, please note the following:</p>
-      <p>·     **Quizzes** are designed to help you check your basic understanding of concepts in preparation for further discussion and practice and are therefore due at the beginning of class on the day for which reading was assigned. Quiz due dates are noted in the syllabus and should be completed through Canvas. Quizzes cannot be made up you may retake them as many times as you would like until they are due and a limited number of your lowest quiz scores will be dropped.</p>
-      <p>·     **Responses** give you opportunities to reflect on class discussions and to formalize work done in class. Response due dates are noted in the syllabus. Since there may be additional questions regarding these responses, there is a one-week grace period for submitting these responses, but I strongly encourage you to not treat this as the de-facto due date so that you are sure to submit everything on time. A limited number of your lowest response scores will be dropped.</p>
-      <p>·     **Formal Assignments** are due on the date indicated on the syllabus. These assignments will lose 10% of their final grade for each day (not class day) they are late unless prior arrangements have been made for exceptional circumstances.</p>
-      <p>·     **Exams** will be completed in our classroom during class or the final exam period unless other accommodations have been made.</p>
+      <p>·     <em>Quizzes</em> are designed to help you check your basic understanding of concepts in preparation for further discussion and practice and are therefore due at the beginning of class on the day for which reading was assigned. Quiz due dates are noted in the syllabus and should be completed through Canvas. Quizzes cannot be made up you may retake them as many times as you would like until they are due and a limited number of your lowest quiz scores will be dropped.</p>
+      <p>·     <em>Responses</em> give you opportunities to reflect on class discussions and to formalize work done in class. Response due dates are noted in the syllabus. Since there may be additional questions regarding these responses, there is a one-week grace period for submitting these responses, but I strongly encourage you to not treat this as the de-facto due date so that you are sure to submit everything on time. A limited number of your lowest response scores will be dropped.</p>
+      <p>·     <em>Formal Assignments</em> are due on the date indicated on the syllabus. These assignments will lose 10% of their final grade for each day (not class day) they are late unless prior arrangements have been made for exceptional circumstances.</p>
+      <p>·     <em>Exams</em> will be completed in our classroom during class or the final exam period unless other accommodations have been made.</p>
 
 
       
@@ -171,7 +171,7 @@
       <title>Class Preparation</title>
       
       
-            <p>The general rule at FSU for time spent preparing for class is a **minimum of two hours of preparation time for every class hour**; thus, you should spend a minimum of eight hours a week preparing for this class. During weeks when you have a major assignment due, you may need more time. You can effectively participate by doing the reading (annotating your text as you read with your comments, questions, and reactions), listening to lectures, taking quizzes, working in class, and completing responses. You should feel free to contact me about any difficulties you may have keeping up with the course material.</p>
+            <p>The general rule at FSU for time spent preparing for class is a <em>minimum of two hours of preparation time for every class hour</em>; thus, you should spend a minimum of eight hours a week preparing for this class. During weeks when you have a major assignment due, you may need more time. You can effectively participate by doing the reading (annotating your text as you read with your comments, questions, and reactions), listening to lectures, taking quizzes, working in class, and completing responses. You should feel free to contact me about any difficulties you may have keeping up with the course material.</p>
 
 
       
@@ -187,9 +187,13 @@
       
       
             <p>In accordance with FSU policy, you should have a laptop available to complete in-class and out-of-class activities. An advanced tablet may be sufficient but less ideal. If you do not currently have access to a laptop, please let me know and I will help you procure one.</p>
-      <p>* **Cell Phones:** Cell phones are not acceptable for classwork and are incredibly distracting for me as an instructor and for others in the classroom. They are therefore prohibited entirely from classroom use—this includes when we are working individually or in small groups.  If you need to use your cell phone for some reason, please leave the classroom entirely—I will assume that whatever you need to do on your phone is more pressing than what we are doing in class (for example, you are expecting an important text from a family member). I will remind you of this fact as necessary.</p>
-      <p>* **Laptops/Tablets**: Since laptops and other devices can be used for both academic and other activities (e.g. watching unrelated videos), please be sure to use them for our class activities while in class so that you do miss important information that may not be easily repeated.</p>
-      <p>* **Headphones**: Please do not use headphones while we are in classroom discussion or small-group work, but there may be some limited opportunity to do this while doing individual work. If you need an accommodation beyond this, please let me know.</p>
+      <p>
+        <ul>
+          <li><em>Cell Phones:</em> Cell phones are not acceptable for classwork and are incredibly distracting for me as an instructor and for others in the classroom. They are therefore prohibited entirely from classroom use—this includes when we are working individually or in small groups.  If you need to use your cell phone for some reason, please leave the classroom entirely—I will assume that whatever you need to do on your phone is more pressing than what we are doing in class (for example, you are expecting an important text from a family member). I will remind you of this fact as necessary.</li>
+          <li><em>Laptops/Tablets</em>: Since laptops and other devices can be used for both academic and other activities (e.g. watching unrelated videos), please be sure to use them for our class activities while in class so that you do miss important information that may not be easily repeated.</li>
+          <li><em>Headphones</em>: Please do not use headphones while we are in classroom discussion or small-group work, but there may be some limited opportunity to do this while doing individual work. If you need an accommodation beyond this, please let me know.</li>
+        </ul>
+      </p>
 
 
       
@@ -234,7 +238,7 @@
       <title>Academic Honesty</title>
       
       
-            <p>Your work must comply with the College Policy Regarding Academic Honesty stated in the College Catalogue. Plagiarism, the use of someone else’s words or ideas as if they were your own, is a serious offense. Consult the Writing Guide at CASA for definitions of plagiarism and examples of correct ways to document summaries, paraphrases, or quotations from the work of others. The penalties for plagiarism vary according to the extent of the offense. *A completely plagiarized essay will result in an F for the whole course.* I will report plagiarism to the Dean of Students, who maintains a database of students who have plagiarized essays or cheated on examinations. I hope that no one in this class will even consider plagiarizing, but speak with me about any problems you may have about achieving the results you hope to get from this course.</p>
+            <p>Your work must comply with the College Policy Regarding Academic Honesty stated in the College Catalogue. Plagiarism, the use of someone else’s words or ideas as if they were your own, is a serious offense. Consult the Writing Guide at CASA for definitions of plagiarism and examples of correct ways to document summaries, paraphrases, or quotations from the work of others. The penalties for plagiarism vary according to the extent of the offense. <em>A completely plagiarized essay will result in an F for the whole course.</em> I will report plagiarism to the Dean of Students, who maintains a database of students who have plagiarized essays or cheated on examinations. I hope that no one in this class will even consider plagiarizing, but speak with me about any problems you may have about achieving the results you hope to get from this course.</p>
 
 
       
@@ -408,8 +412,7 @@
       
       <subsection xml:id="sec-21-sub-1">
         <title>Week One (1/19-1/23): Introductions and Digital Basics</title>
-              <p>T (1/20): Introductions and Course Overview</p>
-      <tabular bottom="minor" top="minor" left="minor" right="minor">
+              <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
           <cell>DH LOs</cell>
           <cell>Gain familiarity with course, instructor, and fellow students. Identify course learning objectives and career competencies. Understand course syllabus and expectations. Gain an initial understanding of “Digital” and “humanities” as course concepts.</cell>
@@ -427,6 +430,7 @@
           <cell>Beginning of Course Survey and add image/profile to Canvas and Starfish Class Introduction (due 1/22)</cell>
         </row>
       </tabular>
+      <p>T (1/20): Introductions and Course Overview</p>
       <p>R (1/22): Digital Basics</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -439,11 +443,11 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[Getting to Know your Computer’s OS](https://edu.gcfglobal.org/en/computerbasics/getting-to-know-the-os/1/)       [A Brief History of Interface Design](https://umvel.medium.com/a-brief-history-of-interface-design-2b7147f0c3a7) [History of User Interfaces](https://framingham.instructure.com/courses/14982/modules/items/778300)</cell>
+          <cell><url href="https://edu.gcfglobal.org/en/computerbasics/getting-to-know-the-os/1/">Getting to Know your Computer’s OS</url>       <url href="https://umvel.medium.com/a-brief-history-of-interface-design-2b7147f0c3a7">A Brief History of Interface Design</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/778300">History of User Interfaces</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Bored Panda: Interfaces](https://framingham.instructure.com/courses/14982/modules/items/778301) [Meta AI Glasses](https://www.meta.com/ai-glasses/?utm_source=gg&amp;utm_medium=ps&amp;utm_campaign=20576653139&amp;utm_term=ai%20glasses&amp;utm_content=774261501012&amp;utm_ad=172285408965&amp;utm_location=9001858&amp;utm_location2=&amp;utm_placement=kwd-325808624154&amp;utm_device=c&amp;utm_matchtype=b&amp;utm_feed=&amp;utm_adposition=&amp;utm_product=&amp;ads_rl=9213737374&amp;&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20576653139&amp;gclid=CjwKCAiAssfLBhBDEiwAcLpwfkLe6LcI8SxivaaEmR75s6Mi-E4FxNvH2TfjtYED6NcbsfWiEBw9aRoC834QAvD_BwE)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/14982/modules/items/778301">Bored Panda: Interfaces</url> <url href="https://www.meta.com/ai-glasses/?utm_source=gg&amp;utm_medium=ps&amp;utm_campaign=20576653139&amp;utm_term=ai%20glasses&amp;utm_content=774261501012&amp;utm_ad=172285408965&amp;utm_location=9001858&amp;utm_location2=&amp;utm_placement=kwd-325808624154&amp;utm_device=c&amp;utm_matchtype=b&amp;utm_feed=&amp;utm_adposition=&amp;utm_product=&amp;ads_rl=9213737374&amp;&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20576653139&amp;gclid=CjwKCAiAssfLBhBDEiwAcLpwfkLe6LcI8SxivaaEmR75s6Mi-E4FxNvH2TfjtYED6NcbsfWiEBw9aRoC834QAvD_BwE">Meta AI Glasses</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -475,7 +479,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Notebook LM: Drucker Chapters](https://framingham.instructure.com/courses/15406/modules/items/751500) [Slave Voyages](https://www.slavevoyages.org/) [Colored Conventions Project](https://coloredconventions.org/) [(Un)Silencing Slavery](https://unsilencing-slavery.org/) [Impact of Native American Removal](https://americanindian.si.edu/nk360/removal/#reflectingPage)  [Plateau Peoples&#x27; Web Portal](https://framingham.instructure.com/courses/8974/modules/items/466278) [Early Caribbean Digital Archive](https://ecda.northeastern.edu/) [South Asian American Digital Archive](https://www.saada.org/) [Recovering the US Hispanic Literary Heritage Digital Collections](https://usldhrecovery.uh.edu/) [Digital Transgender Archive](https://www.digitaltransgenderarchive.net/) [Digital Benin](https://digitalbenin.org/)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/751500">Notebook LM: Drucker Chapters</url> <url href="https://www.slavevoyages.org/">Slave Voyages</url> <url href="https://coloredconventions.org/">Colored Conventions Project</url> <url href="https://unsilencing-slavery.org/">(Un)Silencing Slavery</url> <url href="https://americanindian.si.edu/nk360/removal/#reflectingPage">Impact of Native American Removal</url>  <url href="https://framingham.instructure.com/courses/8974/modules/items/466278">Plateau Peoples&#x27; Web Portal</url> <url href="https://ecda.northeastern.edu/">Early Caribbean Digital Archive</url> <url href="https://www.saada.org/">South Asian American Digital Archive</url> <url href="https://usldhrecovery.uh.edu/">Recovering the US Hispanic Literary Heritage Digital Collections</url> <url href="https://www.digitaltransgenderarchive.net/">Digital Transgender Archive</url> <url href="https://digitalbenin.org/">Digital Benin</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -502,7 +506,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>Google Sheets [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) [Library of Congress](https://www.loc.gov/photos/collections/) [dp.la](https://dp.la/) [Digital Commonwealth](https://www.digitalcommonwealth.org/)</cell>
+          <cell>Google Sheets <url href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</url> <url href="https://www.loc.gov/photos/collections/">Library of Congress</url> <url href="https://dp.la/">dp.la</url> <url href="https://www.digitalcommonwealth.org/">Digital Commonwealth</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -526,7 +530,7 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>Drucker: “Basics of Visualization” (86-101) [Essential Chart Types for Data Visualization](https://www.atlassian.com/data/charts/essential-chart-types-for-data-visualization)</cell>
+          <cell>Drucker: “Basics of Visualization” (86-101) <url href="https://www.atlassian.com/data/charts/essential-chart-types-for-data-visualization">Essential Chart Types for Data Visualization</url></cell>
         </row>
         <row>
           <cell>Quiz</cell>
@@ -534,7 +538,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Google Sheets](https://workspace.google.com/products/sheets/) [College Enrollment &amp; Student Demographic Statistics](https://educationdata.org/college-enrollment-statistics) [Google Public Data Directory](https://www.google.com/publicdata/directory) [ChartGo](https://www.chartgo.com/files/templates.html)</cell>
+          <cell><url href="https://workspace.google.com/products/sheets/">Google Sheets</url> <url href="https://educationdata.org/college-enrollment-statistics">College Enrollment &amp; Student Demographic Statistics</url> <url href="https://www.google.com/publicdata/directory">Google Public Data Directory</url> <url href="https://www.chartgo.com/files/templates.html">ChartGo</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -561,7 +565,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell><url href= "https://csacademy.com/app/graph_editor">CS Academy Graph Editor</url></cell>
+          <cell><url href="https://csacademy.com/app/graph_editor">CS Academy Graph Editor</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -585,11 +589,11 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[Timeline.js](https://timeline.knightlab.com/)</cell>
+          <cell><url href="https://timeline.knightlab.com/">Timeline.js</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Timeline.js](https://timeline.knightlab.com/) [Jim Crow Museum Timeline](https://www.ferris.edu/HTMLS/news/jimcrow/timeline/homepage.htm) [Chicana Por Mi Raza Timelines](https://chicanapormiraza.org/content/visualizations) [Blackness, Immobility, &amp; Visibility in Europe (1600-1800) – A Collaborative Timeline](https://www.journal18.org/nq/blackness-immobility-visibility-in-europe-1600-1800-a-collaborative-timeline/)</cell>
+          <cell><url href="https://timeline.knightlab.com/">Timeline.js</url> <url href="https://www.ferris.edu/HTMLS/news/jimcrow/timeline/homepage.htm">Jim Crow Museum Timeline</url> <url href="https://chicanapormiraza.org/content/visualizations">Chicana Por Mi Raza Timelines</url> <url href="https://www.journal18.org/nq/blackness-immobility-visibility-in-europe-1600-1800-a-collaborative-timeline/">Blackness, Immobility, &amp; Visibility in Europe (1600-1800) – A Collaborative Timeline</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -616,7 +620,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Mapping Racism and Assessing the Success of the Digital Humanities](https://sarahemilybond.com/2017/10/20/mapping-racism-and-assessing-the-success-of-the-digital-humanities/) [The Roots of Structural Racism Project Map](https://belonging.gis-cdn.net/us_segregation_map/?year=2020) [In the Same Boats](http://sameboats.org/) [Mapping Marronage](https://www.mappingmarronage.com/) [Visualizing Emancipation](https://dsl.richmond.edu/emancipation/) [Mapping Inequality: Redlining in New Deal America](https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58) [Torn Apart/ Separados](https://framingham.instructure.com/courses/15406/modules/items/747699) [ArcGIS Online](https://www.arcgis.com/index.html)</cell>
+          <cell><url href="https://sarahemilybond.com/2017/10/20/mapping-racism-and-assessing-the-success-of-the-digital-humanities/">Mapping Racism and Assessing the Success of the Digital Humanities</url> <url href="https://belonging.gis-cdn.net/us_segregation_map/?year=2020">The Roots of Structural Racism Project Map</url> <url href="http://sameboats.org/">In the Same Boats</url> <url href="https://www.mappingmarronage.com/">Mapping Marronage</url> <url href="https://dsl.richmond.edu/emancipation/">Visualizing Emancipation</url> <url href="https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58">Mapping Inequality: Redlining in New Deal America</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747699">Torn Apart/ Separados</url> <url href="https://www.arcgis.com/index.html">ArcGIS Online</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -631,7 +635,7 @@
       </subsection>
       
       <subsection xml:id="sec-21-sub-5">
-        <title>Week Five (2/16-20): Data Mining, Text Analysis, and Distant Reading</title>
+        <title>Week Five (2/16-2/20): Data Mining, Text Analysis, and Distant Reading</title>
               <p>T (2/17): Data Mining and Text Analysis</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -640,7 +644,7 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>“Data Mining and Text Analysis” (DHC, 110-120) [About Google Ngrams](https://books.google.com/ngrams/info)</cell>
+          <cell>“Data Mining and Text Analysis” (DHC, 110-120) <url href="https://books.google.com/ngrams/info">About Google Ngrams</url></cell>
         </row>
         <row>
           <cell>Quiz</cell>
@@ -648,7 +652,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Google Ngrams](https://books.google.com/ngrams)</cell>
+          <cell><url href="https://books.google.com/ngrams">Google Ngrams</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -667,11 +671,11 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[Voyant Tools Guide](https://voyant-tools.org/docs/tutorial-start.html)</cell>
+          <cell><url href="https://voyant-tools.org/docs/tutorial-start.html">Voyant Tools Guide</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Project Gutenberg Bookshelf](https://www.gutenberg.org/ebooks/bookshelf/) Voyant Tools</cell>
+          <cell><url href="https://www.gutenberg.org/ebooks/bookshelf/">Project Gutenberg Bookshelf</url> Voyant Tools</cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -695,7 +699,7 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[Module Overview \- AI Chatbots](https://framingham.instructure.com/courses/15406/modules/items/747874) [AI Baseline Survey](https://framingham.instructure.com/courses/15406/modules/items/747875) [Section 1: Understanding AI Chatbots in Academic Context](https://framingham.instructure.com/courses/15406/modules/items/747876) [Before you use a Chatbot](https://framingham.instructure.com/courses/15406/modules/items/747877) [Section 2: Academic Integrity and Ethical Use](https://framingham.instructure.com/courses/15406/modules/items/747879) [Section 3: Ways to use Chatbots](https://framingham.instructure.com/courses/15406/modules/items/747881) [Section 4: Effective Prompting Techniques](https://framingham.instructure.com/courses/15406/modules/items/747882) [Section 5: Critical Evaluation of AI Responses](https://framingham.instructure.com/courses/15406/modules/items/747883)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747874">Module Overview \- AI Chatbots</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747875">AI Baseline Survey</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747876">Section 1: Understanding AI Chatbots in Academic Context</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747877">Before you use a Chatbot</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747879">Section 2: Academic Integrity and Ethical Use</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747881">Section 3: Ways to use Chatbots</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747882">Section 4: Effective Prompting Techniques</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747883">Section 5: Critical Evaluation of AI Responses</url></cell>
         </row>
         <row>
           <cell>Quiz</cell>
@@ -707,7 +711,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Microsoft Copilot](https://framingham.instructure.com/courses/15406/modules/items/747710) [OpenAI&#x27;s ChatGPT](https://framingham.instructure.com/courses/15406/modules/items/747711) [Google Gemini](https://framingham.instructure.com/courses/15406/modules/items/747712) [Latimer AI](https://framingham.instructure.com/courses/15406/modules/items/768169)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747710">Microsoft Copilot</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747711">OpenAI&#x27;s ChatGPT</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747712">Google Gemini</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/768169">Latimer AI</url></cell>
         </row>
         <row>
           <cell>Response</cell>
@@ -730,7 +734,7 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Scikit-learn Iris Dataset](https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_iris.html) [mlvis.com Iris Dataset](http://mlvis.com/iris.php#panel-body) [MNIST Interactive Digit Recognizer (1)](https://mco-mnist-draw-rwpxka3zaa-ue.a.run.app/)   [MNIST Interactive Digit Recognizer (2)](https://www.ccom.ucsd.edu/~cdeotte/programs/MNIST.html) [MNIST Training Demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html) [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist?tab=readme-ov-file) [Interactive Node-Link Visualization of Convolutional Neural Networks](https://adamharley.com/nn_vis/).</cell>
+          <cell><url href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_iris.html">Scikit-learn Iris Dataset</url> <url href="http://mlvis.com/iris.php#panel-body">mlvis.com Iris Dataset</url> <url href="https://mco-mnist-draw-rwpxka3zaa-ue.a.run.app/">MNIST Interactive Digit Recognizer (1)</url>   <url href="https://www.ccom.ucsd.edu/~cdeotte/programs/MNIST.html">MNIST Interactive Digit Recognizer (2)</url> <url href="https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html">MNIST Training Demo</url> <url href="https://github.com/zalandoresearch/fashion-mnist?tab=readme-ov-file">Fashion MNIST</url> <url href="https://adamharley.com/nn_vis/">Interactive Node-Link Visualization of Convolutional Neural Networks</url>.</cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -750,11 +754,11 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[Geek for Geeks: Artificial Neural Networks](https://framingham.instructure.com/courses/14982/modules/items/785495) [Financial Times: Generative AI Works Because of the Transformer](https://framingham.instructure.com/courses/15406/modules/items/747707)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/14982/modules/items/785495">Geek for Geeks: Artificial Neural Networks</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747707">Financial Times: Generative AI Works Because of the Transformer</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[RNN Explainer](https://framingham.instructure.com/courses/14982/modules/items/787002) [Tensorflow Playground](https://framingham.instructure.com/courses/14982/modules/items/787003) [Transformer Explainer](https://framingham.instructure.com/courses/14982/modules/items/787001) [LLM Visualization](https://framingham.instructure.com/courses/14982/modules/items/787000)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/14982/modules/items/787002">RNN Explainer</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/787003">Tensorflow Playground</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/787001">Transformer Explainer</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/787000">LLM Visualization</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -773,18 +777,21 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>Bender &amp; Hannah: “How Large Language Models Actually Work” (AI Con, 23-28) [What is Algorithmic Bias?](https://www.ibm.com/think/topics/algorithmic-bias#:~:text=Algorithmic%20bias%20occurs%20when%20systematic,socioeconomic%2C%20racial%20and%20gender%20biases)</cell>
+          <cell>Bender &amp; Hannah: “How Large Language Models Actually Work” (AI Con, 23-28) <url href="https://www.ibm.com/think/topics/algorithmic-bias#:~:text=Algorithmic%20bias%20occurs%20when%20systematic,socioeconomic%2C%20racial%20and%20gender%20biases">What is Algorithmic Bias?</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Microsoft Copilot](https://framingham.instructure.com/courses/15406/modules/items/747710) [OpenAI&#x27;s ChatGPT](https://framingham.instructure.com/courses/15406/modules/items/747711) [Google Gemini](https://framingham.instructure.com/courses/15406/modules/items/747712) [Latimer AI](https://framingham.instructure.com/courses/15406/modules/items/768169)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747710">Microsoft Copilot</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747711">OpenAI&#x27;s ChatGPT</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747712">Google Gemini</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/768169">Latimer AI</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>Interact with generative AI.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>Generative AI prompt.</cell>
+        </row>
       </tabular>
-      <p>| Responses | Generative AI prompt.</p>
 
       </subsection>
       
@@ -814,8 +821,11 @@
           <cell>Activities</cell>
           <cell>Interact with generative AI.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>Generative AI prompts.</cell>
+        </row>
       </tabular>
-      <p>| Responses | Generative AI prompts.</p>
       <p>R (3/26): The First Ingredient is Clarity</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -830,8 +840,11 @@
           <cell>Activities</cell>
           <cell>Interact with generative AI.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>SMARTE Objective and 5W+H (due 3/31)</cell>
+        </row>
       </tabular>
-      <p>| Responses | SMARTE Objective and 5W+H (due 3/31)</p>
 
       </subsection>
       
@@ -845,14 +858,17 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>Bouchentouf: “Chapter 3: The Art of the Recipe Card” (PR, 90-120) and “Chapter 4: The Precision of Grammage” (PR, 121-146) Lynne: “[Bloom’s and Generative AI](https://rotel.pressbooks.pub/readwritesuccess/chapter/blooms-and-generative-ai/)” Bender &amp; Hannah: “AI and Art Making” (AI Con, 103-112)</cell>
+          <cell>Bouchentouf: “Chapter 3: The Art of the Recipe Card” (PR, 90-120) and “Chapter 4: The Precision of Grammage” (PR, 121-146) Lynne: “<url href="https://rotel.pressbooks.pub/readwritesuccess/chapter/blooms-and-generative-ai/">Bloom’s and Generative AI</url>” Bender &amp; Hannah: “AI and Art Making” (AI Con, 103-112)</cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>Interact with generative AI.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>CROFTC Template (due 4/2)</cell>
+        </row>
       </tabular>
-      <p>| Responses | CROFTC Template (due 4/2)</p>
       <p>R (4/2): Taste, Adjust, Repeat</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -861,7 +877,7 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>Bouchentouf: “Chapter 5: Taste, Adjust, Repeat” (PR, 147-171) Narayan &amp; Kapoor: “Predictions in Criminal Justice” (AISO, 78-81) [United Nations: Racism and AI: “Bias from the past leads to bias in the future”](https://www.ohchr.org/en/stories/2024/07/racism-and-ai-bias-past-leads-bias-future) [ChatGPT May Be Eroding Critical Thinking Skills, According to a New MIT Study](https://time.com/7295195/ai-chatgpt-google-learning-school/)</cell>
+          <cell>Bouchentouf: “Chapter 5: Taste, Adjust, Repeat” (PR, 147-171) Narayan &amp; Kapoor: “Predictions in Criminal Justice” (AISO, 78-81) <url href="https://www.ohchr.org/en/stories/2024/07/racism-and-ai-bias-past-leads-bias-future">United Nations: Racism and AI: “Bias from the past leads to bias in the future”</url> <url href="https://time.com/7295195/ai-chatgpt-google-learning-school/">ChatGPT May Be Eroding Critical Thinking Skills, According to a New MIT Study</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
@@ -871,8 +887,11 @@
           <cell>Responses</cell>
           <cell>AI Response Analysis Checklist (due 4/6)</cell>
         </row>
+        <row>
+          <cell><em>Assignment</em></cell>
+          <cell><em>AI Prompting</em></cell>
+        </row>
       </tabular>
-      <p>| **Assignment** | **AI Prompting**</p>
 
       </subsection>
       
@@ -886,14 +905,17 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) [Library of Congress](https://www.loc.gov/photos/collections/) [Digital Public Library of America](https://dp.la/) [Digital Commonwealth](https://www.digitalcommonwealth.org/) [ThingLink](https://www.thinglink.com/en-us/)</cell>
+          <cell><url href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</url> <url href="https://www.loc.gov/photos/collections/">Library of Congress</url> <url href="https://dp.la/">Digital Public Library of America</url> <url href="https://www.digitalcommonwealth.org/">Digital Commonwealth</url> <url href="https://www.thinglink.com/en-us/">ThingLink</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>Create ThingLink annotations.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>ThingLink annotation of an image (due 4/9)</cell>
+        </row>
       </tabular>
-      <p>| Responses | ThingLink annotation of an image (due 4/9)</p>
       <p>R (4/9): Generating AI Images</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -902,18 +924,21 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>“[The Comprehensive Guide to Mastering Prompt Techniques in Stable Diffusion](https://hub.researchgraph.org/the-comprehensive-guide-to-mastering-prompt-techniques-in-stable-diffusion/)” Nicoletti and Bass: “[Humans are Biased. Generative AI is Even Worse](https://www.bloomberg.com/graphics/2023-generative-ai-bias/)” Growcoot: “[AI Reveals its Biases by Generating what it Thinks Professors Look Like](https://petapixel.com/2023/05/04/ai-reveals-its-biases-by-generating-what-it-thinks-professors-look-like/)” Parshall: “[How This AI Image Won a Major Photography Competition](https://www.scientificamerican.com/article/how-my-ai-image-won-a-major-photography-competition/#:~:text=But%20the%20artist%2C%20Berlin,an%20artificial%20intelligence%20image%20generator)”</cell>
+          <cell>“<url href="https://hub.researchgraph.org/the-comprehensive-guide-to-mastering-prompt-techniques-in-stable-diffusion/">The Comprehensive Guide to Mastering Prompt Techniques in Stable Diffusion</url>” Nicoletti and Bass: “<url href="https://www.bloomberg.com/graphics/2023-generative-ai-bias/">Humans are Biased. Generative AI is Even Worse</url>” Growcoot: “<url href="https://petapixel.com/2023/05/04/ai-reveals-its-biases-by-generating-what-it-thinks-professors-look-like/">AI Reveals its Biases by Generating what it Thinks Professors Look Like</url>” Parshall: “<url href="https://www.scientificamerican.com/article/how-my-ai-image-won-a-major-photography-competition/#:~:text=But%20the%20artist%2C%20Berlin,an%20artificial%20intelligence%20image%20generator">How This AI Image Won a Major Photography Competition</url>”</cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Stable Diffusion Online](https://stablediffusionweb.com/) [This Person Does Not Exist](https://thispersondoesnotexist.com/) [Detect Fakes](https://detectfakes.kellogg.northwestern.edu/)</cell>
+          <cell><url href="https://stablediffusionweb.com/">Stable Diffusion Online</url> <url href="https://thispersondoesnotexist.com/">This Person Does Not Exist</url> <url href="https://detectfakes.kellogg.northwestern.edu/">Detect Fakes</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>Generate AI images.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>AI image generation (due 4/14).</cell>
+        </row>
       </tabular>
-      <p>| Responses | AI image generation (due 4/14).</p>
 
       </subsection>
       
@@ -927,18 +952,21 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[Universal Paperclips (Wikipedia)](https://en.wikipedia.org/wiki/Universal_Paperclips) [Never Alone](https://www.neveralonegame.com/)</cell>
+          <cell><url href="https://en.wikipedia.org/wiki/Universal_Paperclips">Universal Paperclips (Wikipedia)</url> <url href="https://www.neveralonegame.com/">Never Alone</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html) [Survival of the Best Fit](https://www.survivalofthebestfit.com/game/) [Abortion Mazes](https://pudding.cool/2024/10/abortion-mazes/) [Mission US](https://www.mission-us.org/) [Games for Change](https://www.gamesforchange.org/)</cell>
+          <cell><url href="https://www.decisionproblem.com/paperclips/index2.html">Universal Paperclips</url> <url href="https://www.survivalofthebestfit.com/game/">Survival of the Best Fit</url> <url href="https://pudding.cool/2024/10/abortion-mazes/">Abortion Mazes</url> <url href="https://www.mission-us.org/">Mission US</url> <url href="https://www.gamesforchange.org/">Games for Change</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>Discuss video games as cultural critique. Play video games.</cell>
         </row>
+        <row>
+          <cell>Response</cell>
+          <cell>Play a Game (due 4/16)</cell>
+        </row>
       </tabular>
-      <p>| Response | Play a Game (due 4/16)</p>
       <p>R (4/16): 3D and Virtual Models</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -947,7 +975,7 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>“Three-Dimensional and Virtual Models” (DHC, 151-171) [1000 Cut Journey Article](https://digitaleducation.stanford.edu/news/virtual-reality-experience-aims-raise-personal-awareness-racisms-effects) [In New VR, Role-Playing gives Insight into Racism](https://www.axios.com/2023/05/15/new-vr-role-playing-insight-racism)</cell>
+          <cell>“Three-Dimensional and Virtual Models” (DHC, 151-171) <url href="https://digitaleducation.stanford.edu/news/virtual-reality-experience-aims-raise-personal-awareness-racisms-effects">1000 Cut Journey Article</url> <url href="https://www.axios.com/2023/05/15/new-vr-role-playing-insight-racism">In New VR, Role-Playing gives Insight into Racism</url></cell>
         </row>
         <row>
           <cell>Quiz</cell>
@@ -955,14 +983,17 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Public VR](https://framingham.instructure.com/courses/15406/modules/items/747782) [VSim](https://vsim.library.ucla.edu/xmlui/) [ArcGIS Slave Cemetery 3D](https://framingham.instructure.com/courses/15406/modules/items/747785) [Augustan Rome](http://etc.ucla.edu/projects/augustan-rome/) [Sketchfab RLA Archaeology](https://sketchfab.com/rla-archaeology) [Mapping Gothic France](https://mcid.mcah.columbia.edu/art-atlas/mapping-gothic/) [Digital Giza](http://giza.fas.harvard.edu/) [Digital Karnak](https://digitalkarnak.ucsc.edu/browse-archive/) [Virtual Harlem](https://framingham.instructure.com/courses/8974/modules/items/464537) [MLK: Now is the Time](https://nowisthetime.time.com/) [The March 360](https://about.meta.com/community/vr-for-good/the-march-360/) [1000 Cut Journey](https://www.meta.com/experiences/6955891684483867/) [YouTube: Tupac Coachella Hologram](https://framingham.instructure.com/courses/15406/modules/items/747780)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747782">Public VR</url> <url href="https://vsim.library.ucla.edu/xmlui/">VSim</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747785">ArcGIS Slave Cemetery 3D</url> <url href="http://etc.ucla.edu/projects/augustan-rome/">Augustan Rome</url> <url href="https://sketchfab.com/rla-archaeology">Sketchfab RLA Archaeology</url> <url href="https://mcid.mcah.columbia.edu/art-atlas/mapping-gothic/">Mapping Gothic France</url> <url href="http://giza.fas.harvard.edu/">Digital Giza</url> <url href="https://digitalkarnak.ucsc.edu/browse-archive/">Digital Karnak</url> <url href="https://framingham.instructure.com/courses/8974/modules/items/464537">Virtual Harlem</url> <url href="https://nowisthetime.time.com/">MLK: Now is the Time</url> <url href="https://about.meta.com/community/vr-for-good/the-march-360/">The March 360</url> <url href="https://www.meta.com/experiences/6955891684483867/">1000 Cut Journey</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747780">YouTube: Tupac Coachella Hologram</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>3D scanning, photography, and photogrammetry. Experience extended and immersive reality.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>Reflection on extended and immersive reality (due 4/21)</cell>
+        </row>
       </tabular>
-      <p>| Responses | Reflection on extended and immersive reality (due 4/21)</p>
 
       </subsection>
       
@@ -984,14 +1015,17 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[W3 Schools HTML Tutorial](https://www.w3schools.com/html/) [MAPS](https://framingham.instructure.com/courses/14982/modules/items/752736) [MAPS (Legacy)](https://framingham.instructure.com/courses/14982/modules/items/752737) [Text Encoding Initiative](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html) [WWP TEI Tutorials](https://wwp.northeastern.edu/outreach/resources/tutorial_all.html) [TAPAS Project](http://tapasproject.org/) [TEI By Example](https://teibyexample.org/TBE.htm) [TEI Web Editor](https://digital-editing.fas.harvard.edu/editor/)</cell>
+          <cell><url href="https://www.w3schools.com/html/">W3 Schools HTML Tutorial</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/752736">MAPS</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/752737">MAPS (Legacy)</url> <url href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text Encoding Initiative</url> <url href="https://wwp.northeastern.edu/outreach/resources/tutorial_all.html">WWP TEI Tutorials</url> <url href="http://tapasproject.org/">TAPAS Project</url> <url href="https://teibyexample.org/TBE.htm">TEI By Example</url> <url href="https://digital-editing.fas.harvard.edu/editor/">TEI Web Editor</url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>HTML and XML encoding.</cell>
         </row>
+        <row>
+          <cell>Response</cell>
+          <cell>HTML and XML Encoding (due 4/23)</cell>
+        </row>
       </tabular>
-      <p>| Response | HTML and XML Encoding (due 4/23)</p>
       <p>R (4/23): Markdown and Twine</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -1000,18 +1034,21 @@
         </row>
         <row>
           <cell>Readings</cell>
-          <cell>[The Basics of Twine](https://framingham.instructure.com/courses/8974/modules/items/464514)</cell>
+          <cell><url href="https://framingham.instructure.com/courses/8974/modules/items/464514">The Basics of Twine</url></cell>
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[Twine](https://twinery.org/) [Harlowe Manual](https://twine2.neocities.org/) [itch.io ](https://itch.io/)</cell>
+          <cell><url href="https://twinery.org/">Twine</url> <url href="https://twine2.neocities.org/">Harlowe Manual</url> <url href="https://itch.io/">itch.io </url></cell>
         </row>
         <row>
           <cell>Activities</cell>
           <cell>Discuss markdown and Twine. Create a simple Twine narrative/game.</cell>
         </row>
+        <row>
+          <cell>Response</cell>
+          <cell>Create a Twine Narrative/ Game (due 4/28)</cell>
+        </row>
       </tabular>
-      <p>| Response | Create a Twine Narrative/ Game (due 4/28)</p>
 
       </subsection>
       
@@ -1025,14 +1062,17 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[ArcGIS StoryMaps](https://storymaps.arcgis.com/stories) [ArcGIS StoryMaps Gallery](https://doc.arcgis.com/en/arcgis-storymaps/gallery/?categories=%2Fcategories%2Fcontent%20type%2Fcollection) [StoryMap: Jewish Immigration into Framingham](https://storymaps.arcgis.com/stories/212f360b57fa420b84929a48dc1c8ee1) [StoryMap: Saxonville Walkthrough](https://storymaps.arcgis.com/stories/5c4d2a96c8fe4aa4b0654ff9d61745df) [StoryMap: History of Immigration into Framingham](https://storymaps.arcgis.com/stories/49a73a33837c4568a845325c9632e9c0)</cell>
+          <cell><url href="https://storymaps.arcgis.com/stories">ArcGIS StoryMaps</url> <url href="https://doc.arcgis.com/en/arcgis-storymaps/gallery/?categories=%2Fcategories%2Fcontent%20type%2Fcollection">ArcGIS StoryMaps Gallery</url> <url href="https://storymaps.arcgis.com/stories/212f360b57fa420b84929a48dc1c8ee1">StoryMap: Jewish Immigration into Framingham</url> <url href="https://storymaps.arcgis.com/stories/5c4d2a96c8fe4aa4b0654ff9d61745df">StoryMap: Saxonville Walkthrough</url> <url href="https://storymaps.arcgis.com/stories/49a73a33837c4568a845325c9632e9c0">StoryMap: History of Immigration into Framingham</url></cell>
         </row>
         <row>
           <cell>Video</cell>
-          <cell>[How to Create an ArcGIS StoryMap in under 10 Minutes](https://www.youtube.com/watch?v=aVPUQTRrdfU)</cell>
+          <cell><url href="https://www.youtube.com/watch?v=aVPUQTRrdfU">How to Create an ArcGIS StoryMap in under 10 Minutes</url></cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>Critically examine digital humanities StoryMaps. Draft StoryMap essays.</cell>
         </row>
       </tabular>
-      <p>| Activities | Critically examine digital humanities StoryMaps. Draft StoryMap essays.</p>
       <p>R (4/30): StoryMap Essays</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -1041,10 +1081,13 @@
         </row>
         <row>
           <cell>Resources</cell>
-          <cell>[ArcGIS StoryMaps](https://storymaps.arcgis.com/stories)</cell>
+          <cell><url href="https://storymaps.arcgis.com/stories">ArcGIS StoryMaps</url></cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>Draft StoryMap essays.</cell>
         </row>
       </tabular>
-      <p>| Activities | Draft StoryMap essays.</p>
 
       </subsection>
       
@@ -1060,8 +1103,11 @@
           <cell>Activities</cell>
           <cell>Draft StoryMap essays. Review course material and objectives.</cell>
         </row>
+        <row>
+          <cell>Responses</cell>
+          <cell>Letter to a future employer (due 5/7)</cell>
+        </row>
       </tabular>
-      <p>| Responses | Letter to a future employer (due 5/7)</p>
       <p>R (5/7): Class Review</p>
       <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
@@ -1072,8 +1118,11 @@
           <cell>Activities</cell>
           <cell>Draft StoryMap essays. Review course material and objectives.</cell>
         </row>
+        <row>
+          <cell><em>Assignment</em></cell>
+          <cell><em>StoryMap Essay (due 5/8)</em></cell>
+        </row>
       </tabular>
-      <p>| **Assignment** | **StoryMap Essay (due 5/8)**</p>
 
       </subsection>
       
@@ -1086,4 +1135,3 @@
 
   </article>
 </pretext>
-
