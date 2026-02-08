@@ -97,13 +97,13 @@
       <title>Assignments and Grade Breakdown</title>
       
       
-            <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <tabular bottom="minor" top="minor" left="minor" right="minor">
         <row>
           <cell>Assignment</cell>
           <cell>Semester Percentage</cell>
         </row>
         <row>
-          <cell>AI Prompt Engineering</cell>
+          <cell><url href="../assignment-1/index.html">AI Prompt Engineering</url></cell>
           <cell>10%</cell>
         </row>
         <row>
@@ -1130,7 +1130,7 @@
     
 
     
-    
+  
     
 
   </article>
