@@ -6,14 +6,14 @@
     <!-- Main course for html or pdf -->
     <target name="web" source="main.ptx" format="html"
             publication="publication.ptx" deploy-dir="course" />
+
+    <target name="assignment" standalone="yes" format="html" 
+            output-dir="web" publication="publication_standalone.ptx"/>
+<!--
     <target name="print" source="main.ptx" format="pdf"
             output-filename="course.pdf" publication="publication.ptx" />
 
-    <!--
-
-    <target name="slides" source="slides/slides.ptx" format="revealjs"
-            publication="publication-slides.ptx" deploy-dir="slides"
-            output-filename="index.html"/>
+        
     <target name="slides-annotated" source="slides/slides.ptx" format="revealjs"
             publication="publication-slides-annotated.ptx" deploy-dir="slides-annotated"
             output-filename="index.html"/>
@@ -21,14 +21,14 @@
   -->
 
   <!-- The following targets are used to create stand-alone documents, which could be additional slide decks, pdfs, or SCORM archives. Run with `pretext build slides -i source/slides/[filename.ptx]`, for example. -->
-  <target name="pdf" standalone="yes" format="pdf"
+  <!-- <target name="pdf" standalone="yes" format="pdf"
           output-dir="pdfs" publication="publication_standalone.ptx"/>
   <target name="slides" standalone="yes" format="revealjs"
           output-dir="slides" publication="publication-slides.ptx"/>
   <target name="slides-annotated" standalone="yes" format="revealjs"
           output-dir="slides" publication="publication-slides-annotated.ptx"/>
   <target name="scorm" standalone="yes" format="html" compression="scorm"
-          output-dir="scorms" publication="publication_standalone.ptx"/>
+          output-dir="scorms" publication="publication_standalone.ptx"/> -->
   </targets>
 </project>
 
