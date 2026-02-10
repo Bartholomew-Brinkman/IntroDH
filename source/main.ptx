@@ -4,7 +4,7 @@
     <title>Intro to Digital Humanities</title>
     <subtitle>DGHM 110 | Spring 2026</subtitle>
 
-   <frontmatter>
+  <!-- <frontmatter>
       <bibinfo>
         <author>
           <name>Dr. Bartholomew Brinkman</name>
@@ -16,7 +16,7 @@
       <titlepage>
         <titlepage-items/>
       </titlepage>
-    </frontmatter>
+    </frontmatter> -->
 
     <xi:include href="syllabus.ptx" />
 
@@ -25,7 +25,7 @@
       <xi:include href="assignment_1.ptx" />
     </part>
 
-    <backmatter>
-      </backmatter>
+   <!-- <backmatter>
+      </backmatter> -->
   </book>
 </pretext>
