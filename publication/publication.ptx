@@ -104,6 +104,18 @@
 
   <!-- The embed-button makes it easy to copy the code for an iframe into your LMS -->
   <html embed-button="yes">
+    <chunking level="1" /> 
+    <navigation depth="2" />
+
+    <css shell="ignore">
+      <style>
+        /* Widens the main content area */
+        #pretext-content {
+            max-width: 1200px; /* Default is often narrower, around 800px */
+        }
+      </style>
+    </css>
+
 
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
