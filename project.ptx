@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <project ptx-version="2">
   <targets>
-    <target name="syllabus" 
-            source="main.ptx" 
-            format="html" 
-            output-dir="syllabus" />
-
-    <target name="assignment-1" 
-            source="assignment_1.ptx" 
-            format="html" 
-            output-dir="assignment-1" />
+    <target name="web" format="html" />
+    <target name="pdf" format="pdf" />
   </targets>
 </project>

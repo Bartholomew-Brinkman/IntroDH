@@ -1,207 +1,133 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
-  <docinfo/>
-  <article xml:id="doc-1">
-    <title></title>
+<chapter xml:id="asgn-prompt-engineering">
+  <title>Assignment: AI Prompt Engineering</title>
 
-    
-    <introduction>
-      
-      
-      
-      
-      
-    </introduction>
-    
+  <introduction>
+    <p>
+      This assignment challenges you to move beyond simple chatbot queries and engage in the iterative, strategic process of prompt engineering.
+    </p>
+  </introduction>
 
-    
+  <section xml:id="asgn1-intro">
+    <title>Introduction</title>
+    <p>The purpose of this assignment is two-fold. First, it is to give you an opportunity to think more deeply about the digital humanities, and to apply that thinking to creating an item that is useful and interesting to you. Second, it is a chance to practice working effectively with artificial intelligence chatbots and AI prompting techniques in an in-depth way.</p>
+  </section>
 
-    
+  <section xml:id="asgn1-nace">
+    <title>NACE Competencies</title>
+    <p>The National Association of Colleges and Employers have identified eight core competencies that will help you develop career readiness. This assignment will give you an opportunity to focus on three of these competencies in particular: <em>Critical Thinking</em>, <em>Technology</em>, and <em>Communication</em>.</p>
 
-    
-    
-    <section xml:id="sec-1">
-      <title>Introduction</title>
-      
-      
-            <p>The purpose of this assignment is two-fold. First, it is to give you an opportunity to think more deeply about the digital humanities, and to apply that thinking to creating an item that is useful and interesting to you. Second, it is a chance to practice working effectively with artificial intelligence chatbots and AI prompting techniques in an in-depth way.</p>
+    <subsection xml:id="asgn1-nace-critical">
+      <title>Critical Thinking</title>
+      <p>You will have an opportunity to engage in critical thinking as you develop SMART(ER) goals, informed by 5W+H, and as you critically evaluate AI responses.</p>
+    </subsection>
 
+    <subsection xml:id="asgn1-nace-tech">
+      <title>Technology</title>
+      <p>Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.</p>
+    </subsection>
 
-      
+    <subsection xml:id="asgn1-nace-comm">
+      <title>Communication</title>
+      <p>Clearly and effectively exchange information, ideas, facts, and perspectives with persons inside and outside of an organization.</p>
+    </subsection>
+  </section>
 
-      
+  <section xml:id="asgn1-task">
+    <title>Task</title>
+    <p>In this assignment you’ll create an item that engages with a digital humanities issue through AI prompting. You should choose something that is of genuine interest and value to you. I encourage you to be creative here. For example,</p>
 
-      
-    </section>
-    
-    
-    <section xml:id="sec-2">
-      <title>NACE Competencies</title>
-      
-      
-            <p>The National Association of Colleges and Employers have identified eight core competencies that will help you develop career readiness. This assignment will give you an opportunity to focus on three of these competencies in particular: <em>Critical Thinking</em>, <em>Technology</em>, and <em>Communication</em>.</p>
-
-
-      
-
-      
-
-      
-      <subsection xml:id="sec-2-sub-1">
-        <title>Critical Thinking</title>
-              <p>You will have an opportunity to engage in critical thinking as you develop SMART(ER) goals, informed by 5W+H, and as you critically evaluate AI responses.</p>
-
-      </subsection>
-      
-      <subsection xml:id="sec-2-sub-2">
-        <title>Technology</title>
-              <p>Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.</p>
-
-      </subsection>
-      
-      <subsection xml:id="sec-2-sub-3">
-        <title>Communication</title>
-              <p>Clearly and effectively exchange information, ideas, facts, and perspectives with persons inside and outside of an organization.</p>
-
-      </subsection>
-      
-    </section>
-    
-    
-    <section xml:id="sec-3">
-      <title>Task</title>
-      
-      
-            <p>In this assignment you’ll create an item that engages with a digital humanities issue through AI prompting. You should choose something that is of genuine interest and value to you. I encourage you to be creative here. For example,</p>
-
-
-      
-
-      
-
-      
-      <subsection xml:id="sec-3-sub-1">
-        <title>Examples</title>
-              <p>
+    <subsection xml:id="asgn1-examples">
+      <title>Examples</title>
+      <p>
         <ul>
           <li>You might develop a lesson plan, class exercise, or formal assignment for a K-12 classroom.</li>
           <li>You could develop an inclusive business plan.</li>
           <li>You could create an imaginative text, such as a play or short story, that engages with digital humanities.</li>
         </ul>
       </p>
+    </subsection>
 
-      </subsection>
-      
-      <subsection xml:id="sec-3-sub-2">
-        <title>Requirements</title>
-              <p>Whatever you choose, please make this a text-based creation of approximately <em>750-1000 words</em>, since prompting for images and other media involves other considerations beyond what we will be discussing at this time (though you will have an opportunity to think a bit about images later in the semester). Your creation—and the prompt itself— should demonstrate a clear understanding of your chosen digital humanities issue and a clear grasp of what AI can do to help us think about this issue. If you are unsure about your idea, I encourage you to come speak with me.</p>
+    <subsection xml:id="asgn1-requirements">
+      <title>Requirements</title>
+      <p>Whatever you choose, please make this a text-based creation of approximately <em>750-1000 words</em>, since prompting for images and other media involves other considerations beyond what we will be discussing at this time. Your creation—and the prompt itself— should demonstrate a clear understanding of your chosen digital humanities issue and a clear grasp of what AI can do to help us think about this issue.</p>
+    </subsection>
+  </section>
 
-      </subsection>
-      
-    </section>
-    
-    
-    <section xml:id="sec-4">
-      <title>Submission and Grade Details</title>
-      
-      
-            <p>Since the product itself will be automatically generated, you will also be assessed on the quality of your prompt, your interaction with your AI chatbot, and your reflection. You will need to attach the following as <em>one document</em>:</p>
+  <section xml:id="asgn1-details">
+    <title>Submission and Grade Details</title>
+    <p>Since the product itself will be automatically generated, you will also be assessed on the quality of your prompt, your interaction with your AI chatbot, and your reflection. You will need to attach the following as <em>one document</em>:</p>
 
-
-      
-
-      
-
-      
-      <subsection xml:id="sec-4-sub-1">
-        <title>Attachments</title>
-              <p>
+    <subsection xml:id="asgn1-attachments">
+      <title>Attachments</title>
+      <p>
         <ul>
           <li>Your created item.</li>
-          <li>Your full prompt, using the CROFTC template, with attention to precise grammage (<url href="https://framingham.instructure.com/courses/16520/files/2457258?wrap=1">CROFTC Prompt Template</url> <url href="https://framingham.instructure.com/courses/16520/files/2457258/download?download_frd=1">Download CROFTC Prompt Template</url>).</li>
-          <li>Response Analysis Checklist (<url href="https://framingham.instructure.com/courses/16520/files/2457097?wrap=1">AI Response Analysis Checklist</url> <url href="https://framingham.instructure.com/courses/16520/files/2457097/download?download_frd=1">Download AI Response Analysis Checklist</url>).</li>
-          <li>A brief summary of your chatbot conversation that shows iteration and refinement (around 100-150 words). You can prompt the chatbot for this summary.</li>
-          <li>A personal reflection of approximately 300 words on your process of thinking through your question. This should include a reflection on developing your question (using SMARTE and 5W+H), constructing your prompt, selecting your chatbot, evaluating the response, re-iterating as necessary, and anything else of relevance. This personal reflection should be entirely in YOUR OWN WORDS.</li>
+          <li>Your full prompt, using the CROFTC template, with attention to precise grammage (<url href="https://framingham.instructure.com/courses/16520/files/2457258?wrap=1">CROFTC Prompt Template</url>).</li>
+          <li>Response Analysis Checklist (<url href="https://framingham.instructure.com/courses/16520/files/2457097?wrap=1">AI Response Analysis Checklist</url>).</li>
+          <li>A brief summary of your chatbot conversation that shows iteration and refinement (around 100-150 words).</li>
+          <li>A personal reflection of approximately 300 words on your process of thinking through your question. This personal reflection should be entirely in YOUR OWN WORDS.</li>
         </ul>
       </p>
+    </subsection>
 
-      </subsection>
-      
-      <subsection xml:id="sec-4-sub-2">
-        <title>Due Date</title>
-              <p><em>Monday, November 10 @ 11:59pm.</em></p>
+    <subsection xml:id="asgn1-due-date">
+      <title>Due Date</title>
+      <p><em>Monday, November 10 @ 11:59pm.</em></p>
+    </subsection>
+  </section>
 
-      </subsection>
-      
-    </section>
-    
-    
-    <section xml:id="sec-5">
-      <title>Rubric</title>
-      
-      
-      
+  <section xml:id="asgn1-rubric">
+    <title>Rubric</title>
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <row>
+        <cell>Criteria</cell>
+        <cell>Proficient</cell>
+        <cell>Competent</cell>
+        <cell>Developing</cell>
+        <cell>Pts</cell>
+      </row>
+      <row>
+        <cell><em>Item</em></cell>
+        <cell>An effective AI item that clearly engages with the topic.</cell>
+        <cell>A generally effective AI item that somewhat engages with topic.</cell>
+        <cell>AI item is not particularly effective.</cell>
+        <cell>20 pts</cell>
+      </row>
+      <row>
+        <cell><em>Prompt</em></cell>
+        <cell>Effective prompt using CROFTC, SMART, and 5W+H. Precise grammage.</cell>
+        <cell>Generally effective prompt; somewhat derived from SMART and 5W+H.</cell>
+        <cell>Ineffective prompt; not clearly structured.</cell>
+        <cell>25 pts</cell>
+      </row>
+      <row>
+        <cell><em>Response Analysis</em></cell>
+        <cell>Effectively evaluates initial response, noting key issues for adjustment.</cell>
+        <cell>Somewhat effectively evaluates initial response.</cell>
+        <cell>Ineffectively or incompletely evaluates response.</cell>
+        <cell>20 pts</cell>
+      </row>
+      <row>
+        <cell><em>Conversation Summary</em></cell>
+        <cell>Clearly depicts iteration and refinement of an initial prompt.</cell>
+        <cell>Generally depicts engagement and some refinement.</cell>
+        <cell>Fails to depict full engagement or iteration.</cell>
+        <cell>10 pts</cell>
+      </row>
+      <row>
+        <cell><em>Reflection</em></cell>
+        <cell>In-depth reflection on process and objective development.</cell>
+        <cell>Generally clear reflection on process.</cell>
+        <cell>Somewhat unclear or incomplete reflection.</cell>
+        <cell>25 pts</cell>
+      </row>
+    </tabular>
+  </section>
 
-      
-
-      
-
-      
-      <subsection xml:id="sec-5-sub-1">
-        <title>Criteria</title>
-              <tabular bottom="minor" top="minor" left="minor" right="minor">
-        <row>
-          <cell>Criteria</cell>
-          <cell>Proficient</cell>
-          <cell>Competent</cell>
-          <cell>Developing</cell>
-          <cell>Pts</cell>
-        </row>
-        <row>
-          <cell><em>Item</em></cell>
-          <cell><em>20 to &gt;15.0 pts</em> An effective AI item that clearly engages with the topic.</cell>
-          <cell><em>15 to &gt;10.0 pts</em> A generally effective AI item that somewhat engages with topic.</cell>
-          <cell><em>10 to &gt;0 pts</em> AI item is not particularly effective. Does not effectively engage with your topic.</cell>
-          <cell>20 pts</cell>
-        </row>
-        <row>
-          <cell><em>Prompt</em></cell>
-          <cell><em>25 to &gt;18.0 pts</em> An effective AI prompt that clearly engages with your topic. Clearly structured using CROFTC with prompt content derived from SMART and 5W+H. Precise and effective grammage.</cell>
-          <cell><em>18 to &gt;12.0 pts</em> A generally effective AI prompt that somewhat engages with your topic. Generally well-structured using CROFTC with prompt content somewhat derived from SMART and 5W+H. Somewhat precise and effective grammage.</cell>
-          <cell><em>12 to &gt;0 pts</em> An ineffective AI prompt that does not clearly engage with your topic. Not clearly structured using CROFTC. Prompt content not clearly derived from SMART and 5W+H. Imprecise and ineffective grammage.</cell>
-          <cell>25 pts</cell>
-        </row>
-        <row>
-          <cell><em>AI Response Analysis Checklist</em></cell>
-          <cell><em>20 to &gt;15.0 pts</em> AI response analysis effectively evaluates initial AI response, noting key specific issues for adjustment.</cell>
-          <cell><em>15 to &gt;10.0 pts</em> AI response analysis that somewhat effectively evaluates initial AI response, noting some specific issues for adjustment.</cell>
-          <cell><em>10 to &gt;0 pts</em> AI response analysis ineffectively or incompletely evaluates initial AI response. Fails in noting key specific issues for adjustment.</cell>
-          <cell>20 pts</cell>
-        </row>
-        <row>
-          <cell><em>AI Conversation Summary</em></cell>
-          <cell><em>10 to &gt;7.0 pts</em> Summary (can be AI generated) that clearly depicts engagement with an AI chatbot, including building on and refining an initial prompt.</cell>
-          <cell><em>7 to &gt;5.0 pts</em> A summary (can be AI generated) that generally depicts engagement with an AI chatbot, including somewhat building on and refining an initial prompt.</cell>
-          <cell><em>5 to &gt;0 pts</em> Summary (can be AI generated) fails to depict full engagement with an AI chatbot, including building on and refining an initial prompt.</cell>
-          <cell>10 pts</cell>
-        </row>
-        <row>
-          <cell><em>Reflection</em></cell>
-          <cell><em>25 to &gt;18.0 pts</em> Clear and in-depth reflection in your own words of developing an objective (using SMARTE and 5W+H), constructing a prompt, selecting a chatbot, evaluating the response, re-iterating as necessary, and anything else of relevance.</cell>
-          <cell><em>18 to &gt;12.0 pts</em> Generally clear and in-depth reflection in your own words of developing an objective (using SMARTE and 5W+H), constructing a prompt, selecting a chatbot, evaluating the response, re-iterating as necessary, and anything else of relevance.</cell>
-          <cell><em>12 to &gt;0 pts</em> Somewhat unclear reflection in your own words. May be lacking some of the following: developing an objective (using SMARTE and 5W+H), constructing a prompt, selecting a chatbot, evaluating the response, and re-iterating as necessary.</cell>
-          <cell>25 pts</cell>
-        </row>
-      </tabular>
-
-      </subsection>
-      
-    </section>
-    
-
-    
-    
-    
-
-  </article>
-</pretext>
+  <section xml:id="asgn1-navigation">
+    <title>Navigation</title>
+    <p>
+      Return to the <xref ref="chapter-syllabus" text="title" />.
+    </p>
+  </section>
+</chapter>

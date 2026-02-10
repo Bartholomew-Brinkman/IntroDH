@@ -1,0 +1,221 @@
+<chapter xml:id="chapter-syllabus">
+  <title>DGHM 110: Introduction to Digital Humanities (Spring 2026)</title>
+
+  <introduction>
+    <p>Welcome to Introduction to Digital Humanities! This course will help you gain a fundamental understanding of the digital humanities (DH), focusing on both the “digital” and the “humanities.” You can expect to learn concepts, methods, and tools for working with data such as literary texts, historical maps, and visual art while reflecting on what it means to do so as a humanist.</p>
+  </introduction>
+
+  <section xml:id="syl-learning-objectives">
+    <title>Learning Objectives</title>
+    <p>Upon completion of this course, students will be able to:</p>
+    <p>
+      <ul>
+        <li>Develop an understanding of digital humanities.</li>
+        <li>Analyze digital humanities issues through the visualization of quantitative data.</li>
+        <li>Apply close- and distant-reading practices to humanities issues.</li>
+        <li>Gain awareness of a variety of digital tools and methods, and appropriately select from these.</li>
+        <li>Gain a basic understanding of AI and refine prompting techniques.</li>
+        <li>Gain awareness of a variety of DH projects that address a variety of humanities issues.</li>
+        <li>Practice methods for describing humanities data, including markup languages.</li>
+        <li>Communicate analysis of humanities issues through digital platforms.</li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="syl-description">
+    <title>Course Description</title>
+    <p>Welcome to Introduction to Digital Humanities! This course will help you gain a fundamental understanding of the digital humanities (DH), focusing on both the “digital” and the “humanities.” You can expect to learn concepts, methods, and tools for working with data such as literary texts, historical maps, and visual art while reflecting on what it means to do so as a humanist. We will frequently discuss how the skills you acquire in this course can assist you in future courses as well as help prepare you for a variety of careers after graduation. Particular emphasis will be placed on critically understanding artificial intelligence.</p>
+  </section>
+
+  <section xml:id="syl-goals">
+    <title>Course Goals, Learning Objectives, and Competencies</title>
+    <p>The following are the main goals for the course, along with learning outcomes and career competencies you can expect to develop. Please note that while these are the goals and competencies that we will most explicitly focus on—and associated learning outcomes are included in the course schedule—we will certainly touch on others. Goals and competencies will be addressed through both formal assignments and less formal exercises.</p>
+  </section>
+
+  <section xml:id="syl-texts">
+    <title>Course Texts and Additional Resources</title>
+    <p><em>Required Text:</em> Ahmed Bouchentouf: <em>The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction</em> (breadbooks, 2025)</p>
+    <p><em>Optional Text:</em> Johanna Drucker, <em>The Digital Humanities Coursebook: An Introduction to Digital Methods for Research and Scholarship</em> (Routledge, 2021). I have scanned relevant chapters and have made these available through Canvas, but you may choose to purchase a hard copy if you prefer.</p>
+    <p><em>Additional course materials:</em> These include online readings, digital tools, and DH projects, which are all freely available online. Links are provided in the syllabus and on our course Canvas site.</p>
+  </section>
+
+  <section xml:id="syl-assignments">
+    <title>Assignments and Grade Breakdown</title>
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <row>
+        <cell>Assignment</cell>
+        <cell>Semester Percentage</cell>
+      </row>
+      <row>
+        <cell><xref ref="asgn-prompt-engineering">AI Prompt Engineering</xref></cell>
+        <cell>10%</cell>
+      </row>
+      <row>
+        <cell>StoryMap Essay</cell>
+        <cell>10%</cell>
+      </row>
+      <row>
+        <cell>Midterm Exam</cell>
+        <cell>10%</cell>
+      </row>
+      <row>
+        <cell>Final Exam</cell>
+        <cell>10%</cell>
+      </row>
+      <row>
+        <cell>Quizzes</cell>
+        <cell>10% (10 x 1% each)</cell>
+      </row>
+      <row>
+        <cell>Responses</cell>
+        <cell>30% (15 x 2% each)</cell>
+      </row>
+      <row>
+        <cell>In-Class Attendance and Participation</cell>
+        <cell>20%</cell>
+      </row>
+    </tabular>
+    <p><em>Prompt Engineering</em>: You will have an opportunity to practice AI prompt engineering in depth as you create a text-based product (e.g. a lesson plan or a podcast script).</p>
+    <p><em>StoryMap Essay</em>: Near the end of the semester, you will have an opportunity to create an online multimedia essay using ArcGIS StoryMaps. Steps will include researching a topic, writing text, gathering or generating images and other multimedia elements, and making decisions about web design.</p>
+    <p><em>Midterm Exam</em>: Near the midpoint of the semester, you will have an opportunity to demonstrate your knowledge of digital humanities topics as you take an in-class midterm exam.</p>
+    <p><em>Final Exam</em>: At the end of the semester, you will have an opportunity to demonstrate your comprehensive knowledge of digital humanities topics, as you take a final exam.</p>
+    <p><em>Quizzes</em>: You will be responsible for multiple Canvas quizzes over the course of the semester. These quizzes are designed to help you identify core concepts from the assigned reading that will allow you to effectively participate in class discussion and activities. You will have an opportunity to drop some of your lowest scores (or choose to not take some quizzes).</p>
+    <p><em>Responses</em>: You will have many opportunities to submit Canvas responses over the course of the semester. These responses will be low-stakes opportunities to try out a variety of DH tools and methods, and to reflect on these methods. These responses will often be started in class, arising from and providing a basis for further class discussion. You will have an opportunity to drop some of your lowest scores (or choose to not complete all responses).</p>
+    <p><em>Attendance and Class Participation</em>: This portion of your grade is designed to help ensure regular and timely attendance, as well as full participation in class conversation and activities, while acknowledging occasional extenuating circumstances. Attendance and participation are worth 20% of your final grade and you will receive an attendance and participation grade at both the midpoint and conclusion of the semester.</p>
+  </section>
+
+  <section xml:id="syl-submissions">
+    <title>Assignment Submissions</title>
+    <p>Because this is a cumulative course in which content and skills build off of what we have previously learned, it is important for your own intellectual progress and for that of your classmates that you submit all assignments (including quizzes and responses) on time and for these same reasons, I am dedicated to providing timely feedback. In particular, please note the following:</p>
+    <p>
+      <ul>
+        <li><em>Quizzes</em> are designed to help you check your basic understanding of concepts in preparation for further discussion and practice and are therefore due at the beginning of class on the day for which reading was assigned. Quiz due dates are noted in the syllabus and should be completed through Canvas. Quizzes cannot be made up you may retake them as many times as you would like until they are due and a limited number of your lowest quiz scores will be dropped.</li>
+        <li><em>Responses</em> give you opportunities to reflect on class discussions and to formalize work done in class. Response due dates are noted in the syllabus. Since there may be additional questions regarding these responses, there is a one-week grace period for submitting these responses, but I strongly encourage you to not treat this as the de-facto due date so that you are sure to submit everything on time. A limited number of your lowest response scores will be dropped.</li>
+        <li><em>Formal Assignments</em> are due on the date indicated on the syllabus. These assignments will lose 10% of their final grade for each day (not class day) they are late unless prior arrangements have been made for exceptional circumstances.</li>
+        <li><em>Exams</em> will be completed in our classroom during class or the final exam period unless other accommodations have been made.</li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="syl-preparation">
+    <title>Class Preparation</title>
+    <p>The general rule at FSU for time spent preparing for class is a <em>minimum of two hours of preparation time for every class hour</em>; thus, you should spend a minimum of eight hours a week preparing for this class. During weeks when you have a major assignment due, you may need more time. You can effectively participate by doing the reading (annotating your text as you read with your comments, questions, and reactions), listening to lectures, taking quizzes, working in class, and completing responses. You should feel free to contact me about any difficulties you may have keeping up with the course material.</p>
+  </section>
+
+  <section xml:id="syl-device-usage">
+    <title>Laptop, Cell Phone, Headphone, and Other Device Usage</title>
+    <p>In accordance with FSU policy, you should have a laptop available to complete in-class and out-of-class activities. An advanced tablet may be sufficient but less ideal. If you do not currently have access to a laptop, please let me know and I will help you procure one.</p>
+    <p>
+      <ul>
+        <li><em>Cell Phones:</em> Cell phones are not acceptable for classwork and are incredibly distracting for me as an instructor and for others in the classroom. They are therefore prohibited entirely from classroom use—this includes when we are working individually or in small groups. If you need to use your cell phone for some reason, please leave the classroom entirely—I will assume that whatever you need to do on your phone is more pressing than what we are doing in class.</li>
+        <li><em>Laptops/Tablets</em>: Since laptops and other devices can be used for both academic and other activities, please be sure to use them for our class activities while in class so that you do miss important information that may not be easily repeated.</li>
+        <li><em>Headphones</em>: Please do not use headphones while we are in classroom discussion or small-group work, but there may be some limited opportunity to do this while doing individual work. If you need an accommodation beyond this, please let me know.</li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="syl-asynchronous">
+    <title>Asynchronous Class</title>
+    <p>Rather than introduce new material in our fourth asynchronous class hour, this hour should be used to complete reading and assignments for the upcoming class period, which will often be more substantial than those due at other times in the week.</p>
+  </section>
+
+  <section xml:id="syl-reading-note">
+    <title>Important Note about the Reading</title>
+    <p>You must do all of the assigned reading to gain basic knowledge and to lay the foundation for your own learning. Since we aim to spend much of our class time working through concepts, we may only briefly overview the reading at times, but it is crucial that you complete this reading so that you have a basic understanding of these concepts coming into class. You will be responsible for multiple quizzes to help ensure you have a sense of core concepts.</p>
+  </section>
+
+  <section xml:id="syl-honesty">
+    <title>Academic Honesty</title>
+    <p>Your work must comply with the College Policy Regarding Academic Honesty stated in the College Catalogue. Plagiarism, the use of someone else’s words or ideas as if they were your own, is a serious offense. Consult the Writing Guide at CASA for definitions of plagiarism and examples of correct ways to document summaries, paraphrases, or quotations from the work of others. The penalties for plagiarism vary according to the extent of the offense. <em>A completely plagiarized essay will result in an F for the whole course.</em></p>
+  </section>
+
+  <section xml:id="syl-support">
+    <title>Disability and Support Services</title>
+    <p>Framingham State University offers equal opportunities to all qualified students, including those with disabilities and impairments. The University is committed to making reasonable accommodations as are necessary to ensure that its programs and activities do not discriminate, or have the effect of discriminating, on the basis of disability. The Center for Academic Success and Achievement (CASA) serves students with learning and psychiatric disabilities as well as students with visual, mobility, and hearing impairments.</p>
+  </section>
+
+  <section xml:id="syl-difficult-material">
+    <title>Difficult Course Material</title>
+    <p>We will encounter a variety of material over the course of this semester— some of which might include disturbing language and themes. I encourage you to keep an open mind about course material and to speak with me about any concerns that you may have.</p>
+  </section>
+
+  <section xml:id="syl-email">
+    <title>Email Responses</title>
+    <p>I am happy to answer short questions through email. You should, however, consider your email a professional electronic communication—and practice for professional communications you will be sending in the future—so that you formally address me, use full sentences with correct spelling and punctuation, and append your name at the end.</p>
+  </section>
+
+  <section xml:id="syl-office-hours">
+    <title>Office Hours</title>
+    <p>One-on-one discussion during office hours is one of the most important, and generally underutilized, resources available to students. It allows you to develop a rapport with your instructor, where you can receive clarification and elaboration on ideas presented in class, where you can better understand their expectations for you and for the course, and—just as importantly—where you can allow them to get to know you on a more personal level.</p>
+  </section>
+
+  <section xml:id="syl-recording">
+    <title>Recording Classes</title>
+    <p>Access to video and audio recordings in this class is for personal educational use only and is available only to individuals currently enrolled in the class, unless faculty permission is expressly granted. Recording and/or sharing course materials, including video and audio files, without the written consent of the course instructor is a violation of University policies and will be reported for further action.</p>
+  </section>
+
+  <section xml:id="syl-land-acknowledgement">
+    <title>Land Acknowledgement</title>
+    <p>We acknowledge that the land we live, work, learn, and commune on is the original homeland of the Nipmuc tribal nations. We acknowledge the painful history of genocide and forced removal from this territory, and we honor and respect the many diverse Indigenous peoples still connected to this land on which we gather.</p>
+  </section>
+
+  <section xml:id="syl-antiracism">
+    <title>Antiracism Commitment</title>
+    <p>At Framingham State University, faculty, staff, and students work together to sustain a learning, working, and living community free from hate, discrimination, harassment, and intolerance. We recognize the damaging effects of systemic racism—including policies, structures, and historic practices—on the experience and success of communities of color. Diversity of voices, and of minds, strengthens our ability to solve problems and to ask and answer questions about the world we share.</p>
+  </section>
+
+  <section xml:id="syl-ai-policy">
+    <title>Artificial Intelligence Use</title>
+    <p>As generative and agentic AI become increasingly common, you will be expected to be proficient in these technologies during your time at FSU and in your future careers. To help you gain this proficiency, you will have multiple opportunities to learn about and with AI in this course. This learning involves not only delivering AI-assisted products, but also demonstrating intellectual processes and developing habits of mind that will allow you to most effectively and critically work with AI. You are therefore encouraged to use AI in this course as appropriate, but need to be transparent in how you do so, acknowledging how and when you use it.</p>
+  </section>
+
+  <section xml:id="syl-revisions">
+    <title>Syllabus Adaptations and Revisions</title>
+    <p>While I don’t expect to make major changes to the syllabus, I also want to be attentive to the particular needs of the class. Therefore, it is quite possible that I will add some sample projects to help further clarify our understanding of core concepts. I will give you as much notice about this as I can.</p>
+  </section>
+
+  <section xml:id="syl-exceptions">
+    <title>Policy Exceptions</title>
+    <p>I understand that things come up. You may unexpectedly be absent for a week due to an illness or family emergency. Some of you may be uncomfortable speaking in front of others, but don’t feel that this is an indication of your preparedness. Please come speak to me. I am happy to work with you and to best facilitate your learning, but will best be able to do so if we can come to an agreement at the outset of the course, or as soon as an issue arises.</p>
+  </section>
+
+  <section xml:id="syl-schedule">
+    <title>Course Schedule</title>
+
+    <subsection xml:id="syl-week-1">
+      <title>Week One (1/19-1/23): Introductions and Digital Basics</title>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>DH LOs</cell>
+          <cell>Gain familiarity with course, instructor, and students. Identify course objectives and expectations.</cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>Icebreaker. Course Overview. Review syllabus. Discuss digital humanities.</cell>
+        </row>
+        <row>
+          <cell>Response</cell>
+          <cell>Beginning of Course Survey (due 1/22)</cell>
+        </row>
+      </tabular>
+      <p>T (1/20): Introductions and Course Overview</p>
+      <p>R (1/22): Digital Basics</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell><url href="https://edu.gcfglobal.org/en/computerbasics/getting-to-know-the-os/1/">Getting to Know your Computer’s OS</url></cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>OS pair and share. Play with Interfaces.</cell>
+        </row>
+        <row>
+          <cell>Response</cell>
+          <cell>Interface (due 1/27).</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    </section>
+
+</chapter>
