@@ -138,6 +138,12 @@
     <!-- override defaults.  Ex:<css theme="denver"/>          -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
+  <navigation>
+    <extra-links>
+      <link url="../syllabus/index.html" text="Syllabus"/>
+      <link url="../assignment-1/index.html" text="AI Assignment"/>
+    </extra-links>
+  </navigation>
     <css
         theme="default-modern"
         primary-color="#FCB614"

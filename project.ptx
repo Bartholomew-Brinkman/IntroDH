@@ -4,13 +4,11 @@
     <target name="syllabus" 
             source="main.ptx" 
             format="html" 
-            publication="publication.ptx"
             output-dir="syllabus" />
 
     <target name="assignment-1" 
             source="assignment_1.ptx" 
             format="html" 
-            publication="publication.ptx"
             output-dir="assignment-1" />
   </targets>
 </project>
