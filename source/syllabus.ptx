@@ -47,7 +47,7 @@
         <cell>Semester Percentage</cell>
       </row>
       <row>
-        <cell><xref ref="asgn-prompt-engineering">AI Prompt Engineering</xref></cell>
+        <cell><xref ref="asgn-prompt-engineering" text="title">AI Prompt Engineering</xref></cell>
         <cell>10%</cell>
       </row>
       <row>
@@ -216,6 +216,273 @@
       </tabular>
     </subsection>
 
-    </section>
+    <subsection xml:id="syl-week-2">
+      <title>Week Two (1/26-1/30): Digital Humanities and Data/Metadata</title>
+      <p>T (1/27): Digital Humanities Overview</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>DH LOs</cell>
+          <cell>Identify key aspects of DH (Materials, Processing, Presentation). Begin to understand critical digital humanities.</cell>
+        </row>
+        <row>
+          <cell>Readings</cell>
+          <cell>Drucker: “Digital Humanities Overview” (DHC, 1-8)</cell>
+        </row>
+        <row>
+          <cell>Resources</cell>
+          <cell><url href="https://www.slavevoyages.org/">Slave Voyages</url>, <url href="https://coloredconventions.org/">Colored Conventions Project</url></cell>
+        </row>
+      </tabular>
+      <p>R (1/29): Data and Metadata</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>DH LOs</cell>
+          <cell>Identify data formats and modeling. Obtain and annotate images.</cell>
+        </row>
+        <row>
+          <cell>Readings</cell>
+          <cell>Drucker: “Data Modeling and Use” (19-27) and “Metadata and Classification” (52-61)</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-3">
+      <title>Week Three (2/2-2/6): Data Visualization</title>
+      <p>T (2/3): Data Visualization</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Drucker: “Basics of Visualization” (86-101)</cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>Create Data Visualizations with Google Sheets</cell>
+        </row>
+      </tabular>
+      <p>R (2/5): Networks</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Drucker: “Networks and Complex Systems” (101-109)</cell>
+        </row>
+        <row>
+          <cell>Resources</cell>
+          <cell><url href="https://csacademy.com/app/graph_editor">CS Academy Graph Editor</url></cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-4">
+      <title>Week Four (2/9-2/13): Temporal-Spatial Visualization</title>
+      <p>T (2/10): Timelines</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell><url href="https://timeline.knightlab.com/">Timeline.js</url></cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>Create a timeline individually and as a class.</cell>
+        </row>
+      </tabular>
+      <p>R (2/12): Mapping</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>“Mapping and GIS” (DHC, 130-150)</cell>
+        </row>
+        <row>
+          <cell>Resources</cell>
+          <cell><url href="https://dsl.richmond.edu/panorama/redlining/">Mapping Inequality</url>, ArcGIS Online</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-5">
+      <title>Week Five (2/16-2/20): Data Mining and Text Analysis</title>
+      <p>T (2/17): Data Mining</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>“Data Mining and Text Analysis” (DHC, 110-120)</cell>
+        </row>
+      </tabular>
+      <p>R (2/19): Voyant Tools</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Activities</cell>
+          <cell>Create and interpret visualizations using Voyant Tools.</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-6">
+      <title>Week Six (2/23-2/27): Introducing AI</title>
+      <p>T (2/24): AI Chatbots</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Activities</cell>
+          <cell>Discuss AI usage and practice using chatbots (Gemini, ChatGPT).</cell>
+        </row>
+      </tabular>
+      <p>R (2/26): AI Under the Hood</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Kneusel: “And Away We Go: An AI Overview” (5-23)</cell>
+        </row>
+        <row>
+          <cell>Resources</cell>
+          <cell>Iris, MNIST, and Fashion MNIST datasets.</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-7">
+      <title>Week Seven (3/2-3/6): Neural Networks</title>
+      <p>T (3/3): Neural Networks I</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Resources</cell>
+          <cell>Tensorflow Playground, Transformer Explainer</cell>
+        </row>
+      </tabular>
+      <p>R (3/5): Neural Networks II</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Bender &amp; Hannah: “How Large Language Models Actually Work”</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-8">
+      <title>Week Eight (3/9-3/13): Midterm Exam</title>
+      <p>In-class Midterm Exam held this week.</p>
+    </subsection>
+
+    <subsection xml:id="syl-week-9">
+      <title>Week Nine (3/16-3/20): Spring Break</title>
+      <p>No classes held during Spring Break.</p>
+    </subsection>
+
+    <subsection xml:id="syl-week-10">
+      <title>Week Ten (3/23-3/27): Prompt Engineering I</title>
+      <p>T (3/24): Inside the AI's Mind</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Bouchentouf: Intro &amp; Chapter 1 (PR, 7-54)</cell>
+        </row>
+      </tabular>
+      <p>R (3/26): Clarity and Objectives</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Bouchentouf: Chapter 2 (55-89)</cell>
+        </row>
+        <row>
+          <cell>Response</cell>
+          <cell>SMARTE Objective and 5W+H</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-11">
+      <title>Week Eleven (3/30-4/3): Prompt Engineering II</title>
+      <p>T (3/31): The Precision of Grammage</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Bouchentouf: Chapters 3 and 4 (90-146)</cell>
+        </row>
+      </tabular>
+      <p>R (4/2): Taste, Adjust, Repeat</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>Bouchentouf: Chapter 5 (147-171)</cell>
+        </row>
+        <row>
+          <cell>Assignment</cell>
+          <cell>AI Prompt Engineering due this week.</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-12">
+      <title>Week Twelve (4/6-4/10): Working with Visuals</title>
+      <p>T (4/7): Image Annotation</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Resources</cell>
+          <cell>ThingLink, Wikimedia Commons</cell>
+        </row>
+      </tabular>
+      <p>R (4/9): Generating AI Images</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>“Humans are Biased. Generative AI is Even Worse”</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-13">
+      <title>Week Thirteen (4/13-4/17): Games and Virtual Reality</title>
+      <p>T (4/14): Games as Critique</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Resources</cell>
+          <cell>Universal Paperclips, Survival of the Best Fit</cell>
+        </row>
+      </tabular>
+      <p>R (4/16): 3D and Virtual Models</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Readings</cell>
+          <cell>“Three-Dimensional and Virtual Models” (DHC, 151-171)</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-14">
+      <title>Week Fourteen (4/20-4/24): Markup Languages</title>
+      <p>T (4/21): HTML and XML Encoding</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Resources</cell>
+          <cell>Text Encoding Initiative (TEI), TAPAS Project</cell>
+        </row>
+      </tabular>
+      <p>R (4/23): Markdown and Twine</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Activities</cell>
+          <cell>Create a simple Twine narrative/game.</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-15">
+      <title>Week Fifteen (4/27-5/1): StoryMap Essays</title>
+      <p>T (4/28) &amp; R (4/30): Drafting StoryMap Essays</p>
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
+        <row>
+          <cell>Resources</cell>
+          <cell>ArcGIS StoryMaps Gallery</cell>
+        </row>
+        <row>
+          <cell>Activities</cell>
+          <cell>Drafting and peer reviewing multimodal essays.</cell>
+        </row>
+      </tabular>
+    </subsection>
+
+    <subsection xml:id="syl-week-16">
+      <title>Week Sixteen (5/4-5/8): Final Review</title>
+      <p>Final course review and StoryMap Essay due on 5/8.</p>
+    </subsection>
+  </section>
 
 </chapter>
