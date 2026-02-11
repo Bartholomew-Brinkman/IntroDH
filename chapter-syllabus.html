@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DGHM 110: Introduction to Digital Humanities (Spring 2026)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Intro to Digital Humanities">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.13';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="intro-dh.html"><span class="title">Intro to Digital Humanities</span> <span class="subtitle">DGHM 110 | Spring 2026</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="intro-dh.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="intro-dh.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="part-assignments.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-syllabus.html" class="internal"><span class="title">DGHM 110: Introduction to Digital Humanities (Spring 2026)</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-learning-objectives" class="internal"><span class="title">Learning Objectives</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-description" class="internal"><span class="title">Course Description</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-goals" class="internal"><span class="title">Course Goals, Learning Objectives, and Competencies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-texts" class="internal"><span class="title">Course Texts and Additional Resources</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-assignments" class="internal"><span class="title">Assignments and Grade Breakdown</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-submissions" class="internal"><span class="title">Assignment Submissions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-preparation" class="internal"><span class="title">Class Preparation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-device-usage" class="internal"><span class="title">Laptop, Cell Phone, Headphone, and Other Device Usage</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-asynchronous" class="internal"><span class="title">Asynchronous Class</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-reading-note" class="internal"><span class="title">Important Note about the Reading</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-honesty" class="internal"><span class="title">Academic Honesty</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-support" class="internal"><span class="title">Disability and Support Services</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-difficult-material" class="internal"><span class="title">Difficult Course Material</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-email" class="internal"><span class="title">Email Responses</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-office-hours" class="internal"><span class="title">Office Hours</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-recording" class="internal"><span class="title">Recording Classes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-land-acknowledgement" class="internal"><span class="title">Land Acknowledgement</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-antiracism" class="internal"><span class="title">Antiracism Commitment</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-ai-policy" class="internal"><span class="title">Artificial Intelligence Use</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-revisions" class="internal"><span class="title">Syllabus Adaptations and Revisions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-exceptions" class="internal"><span class="title">Policy Exceptions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-syllabus.html#syl-schedule" class="internal"><span class="title">Course Schedule</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-1" class="internal"><span class="title">Week One (1/19-1/23): Introductions and Digital Basics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-2" class="internal"><span class="title">Week Two (1/26-1/30): Digital Humanities and Data/Metadata</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-3" class="internal"><span class="title">Week Three (2/2-2/6): Data Visualization</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-4" class="internal"><span class="title">Week Four (2/9-2/13): Temporal-Spatial Visualization</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-5" class="internal"><span class="title">Week Five (2/16-2/20): Data Mining and Text Analysis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-6" class="internal"><span class="title">Week Six (2/23-2/27): Introducing AI</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-7" class="internal"><span class="title">Week Seven (3/2-3/6): Neural Networks</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-8" class="internal"><span class="title">Week Eight (3/9-3/13): Midterm Exam</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-9" class="internal"><span class="title">Week Nine (3/16-3/20): Spring Break</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-10" class="internal"><span class="title">Week Ten (3/23-3/27): Prompt Engineering I</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-11" class="internal"><span class="title">Week Eleven (3/30-4/3): Prompt Engineering II</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-12" class="internal"><span class="title">Week Twelve (4/6-4/10): Working with Visuals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-13" class="internal"><span class="title">Week Thirteen (4/13-4/17): Games and Virtual Reality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-14" class="internal"><span class="title">Week Fourteen (4/20-4/24): Markup Languages</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-15" class="internal"><span class="title">Week Fifteen (4/27-5/1): StoryMap Essays</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-syllabus.html#syl-week-16" class="internal"><span class="title">Week Sixteen (5/4-5/8): Final Review</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-assignments.html" class="internal"><span class="title">Assignments</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="part-assignments.html#asgn-prompt-engineering" class="internal"><span class="title">Assignment: AI Prompt Engineering</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="part-assignments.html#asgn1-intro" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="part-assignments.html#asgn1-nace" class="internal"><span class="title">NACE Competencies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-nace-critical" class="internal"><span class="title">Critical Thinking</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-nace-tech" class="internal"><span class="title">Technology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-nace-comm" class="internal"><span class="title">Communication</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="part-assignments.html#asgn1-task" class="internal"><span class="title">Task</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-examples" class="internal"><span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-requirements" class="internal"><span class="title">Requirements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="part-assignments.html#asgn1-details" class="internal"><span class="title">Submission and Grade Details</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-attachments" class="internal"><span class="title">Attachments</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="part-assignments.html#asgn1-due-date" class="internal"><span class="title">Due Date</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="part-assignments.html#asgn1-rubric" class="internal"><span class="title">Rubric</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="part-assignments.html#asgn1-navigation" class="internal"><span class="title">Navigation</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="chapter-syllabus"><h2 class="heading hide-type">
+<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">DGHM 110: Introduction to Digital Humanities (Spring 2026)</span>
+</h2>
+<section class="introduction" id="chapter-syllabus-2"><div class="para" id="chapter-syllabus-2-1">Welcome to Introduction to Digital Humanities! This course will help you gain a fundamental understanding of the digital humanities (DH), focusing on both the “digital” and the “humanities.” You can expect to learn concepts, methods, and tools for working with data such as literary texts, historical maps, and visual art while reflecting on what it means to do so as a humanist.<div class="autopermalink" data-description="Paragraph"><a href="#chapter-syllabus-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="section" id="syl-learning-objectives"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Learning Objectives</span>
+</h3>
+<div class="para" id="syl-learning-objectives-2">Upon completion of this course, students will be able to:<div class="autopermalink" data-description="Paragraph"><a href="#syl-learning-objectives-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="syl-learning-objectives-3">
+<ul class="disc" id="syl-learning-objectives-3-1">
+<li id="syl-learning-objectives-3-1-1">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-1">Develop an understanding of digital humanities.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-2">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-2">Analyze digital humanities issues through the visualization of quantitative data.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-3">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-3">Apply close- and distant-reading practices to humanities issues.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-4">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-4">Gain awareness of a variety of digital tools and methods, and appropriately select from these.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-5">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-5">Gain a basic understanding of AI and refine prompting techniques.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-6">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-6">Gain awareness of a variety of DH projects that address a variety of humanities issues.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-7">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-7">Practice methods for describing humanities data, including markup languages.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-learning-objectives-3-1-8">
+<div class="para" id="p-derived-syl-learning-objectives-3-1-8">Communicate analysis of humanities issues through digital platforms.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-learning-objectives-3-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#syl-learning-objectives-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Learning Objectives"><a href="#syl-learning-objectives" title="Copy heading and permalink for Section: Learning Objectives" aria-label="Copy heading and permalink for Section: Learning Objectives">🔗</a></div></section><section class="section" id="syl-description"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Description</span>
+</h3>
+<div class="para" id="syl-description-2">Welcome to Introduction to Digital Humanities! This course will help you gain a fundamental understanding of the digital humanities (DH), focusing on both the “digital” and the “humanities.” You can expect to learn concepts, methods, and tools for working with data such as literary texts, historical maps, and visual art while reflecting on what it means to do so as a humanist. We will frequently discuss how the skills you acquire in this course can assist you in future courses as well as help prepare you for a variety of careers after graduation. Particular emphasis will be placed on critically understanding artificial intelligence.<div class="autopermalink" data-description="Paragraph"><a href="#syl-description-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Course Description"><a href="#syl-description" title="Copy heading and permalink for Section: Course Description" aria-label="Copy heading and permalink for Section: Course Description">🔗</a></div></section><section class="section" id="syl-goals"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Goals, Learning Objectives, and Competencies</span>
+</h3>
+<div class="para" id="syl-goals-2">The following are the main goals for the course, along with learning outcomes and career competencies you can expect to develop. Please note that while these are the goals and competencies that we will most explicitly focus on—and associated learning outcomes are included in the course schedule—we will certainly touch on others. Goals and competencies will be addressed through both formal assignments and less formal exercises.<div class="autopermalink" data-description="Paragraph"><a href="#syl-goals-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Course Goals, Learning Objectives, and Competencies"><a href="#syl-goals" title="Copy heading and permalink for Section: Course Goals, Learning Objectives, and Competencies" aria-label="Copy heading and permalink for Section: Course Goals, Learning Objectives, and Competencies">🔗</a></div></section><section class="section" id="syl-texts"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Texts and Additional Resources</span>
+</h3>
+<div class="para" id="syl-texts-2">
+<em class="emphasis">Required Text:</em> Ahmed Bouchentouf: <em class="emphasis">The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction</em> (breadbooks, 2025)<div class="autopermalink" data-description="Paragraph"><a href="#syl-texts-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-texts-3">
+<em class="emphasis">Optional Text:</em> Johanna Drucker, <em class="emphasis">The Digital Humanities Coursebook: An Introduction to Digital Methods for Research and Scholarship</em> (Routledge, 2021). I have scanned relevant chapters and have made these available through Canvas, but you may choose to purchase a hard copy if you prefer.<div class="autopermalink" data-description="Paragraph"><a href="#syl-texts-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-texts-4">
+<em class="emphasis">Additional course materials:</em> These include online readings, digital tools, and DH projects, which are all freely available online. Links are provided in the syllabus and on our course Canvas site.<div class="autopermalink" data-description="Paragraph"><a href="#syl-texts-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Course Texts and Additional Resources"><a href="#syl-texts" title="Copy heading and permalink for Section: Course Texts and Additional Resources" aria-label="Copy heading and permalink for Section: Course Texts and Additional Resources">🔗</a></div></section><section class="section" id="syl-assignments"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Assignments and Grade Breakdown</span>
+</h3>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Assignment</td>
+<td class="l m b1 r1 l0 t1 lines">Semester Percentage</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><a href="part-assignments.html#asgn-prompt-engineering" class="internal" title="Chapter: Assignment: AI Prompt Engineering">AI Prompt Engineering</a></td>
+<td class="l m b1 r1 l0 t0 lines">10%</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">StoryMap Essay</td>
+<td class="l m b1 r1 l0 t0 lines">10%</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Midterm Exam</td>
+<td class="l m b1 r1 l0 t0 lines">10%</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Final Exam</td>
+<td class="l m b1 r1 l0 t0 lines">10%</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Quizzes</td>
+<td class="l m b1 r1 l0 t0 lines">10% (10 x 1% each)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Responses</td>
+<td class="l m b1 r1 l0 t0 lines">30% (15 x 2% each)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">In-Class Attendance and Participation</td>
+<td class="l m b1 r1 l0 t0 lines">20%</td>
+</tr>
+</table></div>
+<div class="para" id="syl-assignments-3">
+<em class="emphasis">Prompt Engineering</em>: You will have an opportunity to practice AI prompt engineering in depth as you create a text-based product (e.g. a lesson plan or a podcast script).<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-assignments-4">
+<em class="emphasis">StoryMap Essay</em>: Near the end of the semester, you will have an opportunity to create an online multimedia essay using ArcGIS StoryMaps. Steps will include researching a topic, writing text, gathering or generating images and other multimedia elements, and making decisions about web design.<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-assignments-5">
+<em class="emphasis">Midterm Exam</em>: Near the midpoint of the semester, you will have an opportunity to demonstrate your knowledge of digital humanities topics as you take an in-class midterm exam.<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-assignments-6">
+<em class="emphasis">Final Exam</em>: At the end of the semester, you will have an opportunity to demonstrate your comprehensive knowledge of digital humanities topics, as you take a final exam.<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-assignments-7">
+<em class="emphasis">Quizzes</em>: You will be responsible for multiple Canvas quizzes over the course of the semester. These quizzes are designed to help you identify core concepts from the assigned reading that will allow you to effectively participate in class discussion and activities. You will have an opportunity to drop some of your lowest scores (or choose to not take some quizzes).<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-assignments-8">
+<em class="emphasis">Responses</em>: You will have many opportunities to submit Canvas responses over the course of the semester. These responses will be low-stakes opportunities to try out a variety of DH tools and methods, and to reflect on these methods. These responses will often be started in class, arising from and providing a basis for further class discussion. You will have an opportunity to drop some of your lowest scores (or choose to not complete all responses).<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-assignments-9">
+<em class="emphasis">Attendance and Class Participation</em>: This portion of your grade is designed to help ensure regular and timely attendance, as well as full participation in class conversation and activities, while acknowledging occasional extenuating circumstances. Attendance and participation are worth 20% of your final grade and you will receive an attendance and participation grade at both the midpoint and conclusion of the semester.<div class="autopermalink" data-description="Paragraph"><a href="#syl-assignments-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Assignments and Grade Breakdown"><a href="#syl-assignments" title="Copy heading and permalink for Section: Assignments and Grade Breakdown" aria-label="Copy heading and permalink for Section: Assignments and Grade Breakdown">🔗</a></div></section><section class="section" id="syl-submissions"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Assignment Submissions</span>
+</h3>
+<div class="para" id="syl-submissions-2">Because this is a cumulative course in which content and skills build off of what we have previously learned, it is important for your own intellectual progress and for that of your classmates that you submit all assignments (including quizzes and responses) on time and for these same reasons, I am dedicated to providing timely feedback. In particular, please note the following:<div class="autopermalink" data-description="Paragraph"><a href="#syl-submissions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="syl-submissions-3">
+<ul class="disc" id="syl-submissions-3-1">
+<li id="syl-submissions-3-1-1">
+<div class="para" id="p-derived-syl-submissions-3-1-1">
+<em class="emphasis">Quizzes</em> are designed to help you check your basic understanding of concepts in preparation for further discussion and practice and are therefore due at the beginning of class on the day for which reading was assigned. Quiz due dates are noted in the syllabus and should be completed through Canvas. Quizzes cannot be made up you may retake them as many times as you would like until they are due and a limited number of your lowest quiz scores will be dropped.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-submissions-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-submissions-3-1-2">
+<div class="para" id="p-derived-syl-submissions-3-1-2">
+<em class="emphasis">Responses</em> give you opportunities to reflect on class discussions and to formalize work done in class. Response due dates are noted in the syllabus. Since there may be additional questions regarding these responses, there is a one-week grace period for submitting these responses, but I strongly encourage you to not treat this as the de-facto due date so that you are sure to submit everything on time. A limited number of your lowest response scores will be dropped.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-submissions-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-submissions-3-1-3">
+<div class="para" id="p-derived-syl-submissions-3-1-3">
+<em class="emphasis">Formal Assignments</em> are due on the date indicated on the syllabus. These assignments will lose 10% of their final grade for each day (not class day) they are late unless prior arrangements have been made for exceptional circumstances.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-submissions-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-submissions-3-1-4">
+<div class="para" id="p-derived-syl-submissions-3-1-4">
+<em class="emphasis">Exams</em> will be completed in our classroom during class or the final exam period unless other accommodations have been made.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-submissions-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#syl-submissions-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Assignment Submissions"><a href="#syl-submissions" title="Copy heading and permalink for Section: Assignment Submissions" aria-label="Copy heading and permalink for Section: Assignment Submissions">🔗</a></div></section><section class="section" id="syl-preparation"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Class Preparation</span>
+</h3>
+<div class="para" id="syl-preparation-2">The general rule at FSU for time spent preparing for class is a <em class="emphasis">minimum of two hours of preparation time for every class hour</em>; thus, you should spend a minimum of eight hours a week preparing for this class. During weeks when you have a major assignment due, you may need more time. You can effectively participate by doing the reading (annotating your text as you read with your comments, questions, and reactions), listening to lectures, taking quizzes, working in class, and completing responses. You should feel free to contact me about any difficulties you may have keeping up with the course material.<div class="autopermalink" data-description="Paragraph"><a href="#syl-preparation-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Class Preparation"><a href="#syl-preparation" title="Copy heading and permalink for Section: Class Preparation" aria-label="Copy heading and permalink for Section: Class Preparation">🔗</a></div></section><section class="section" id="syl-device-usage"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Laptop, Cell Phone, Headphone, and Other Device Usage</span>
+</h3>
+<div class="para" id="syl-device-usage-2">In accordance with FSU policy, you should have a laptop available to complete in-class and out-of-class activities. An advanced tablet may be sufficient but less ideal. If you do not currently have access to a laptop, please let me know and I will help you procure one.<div class="autopermalink" data-description="Paragraph"><a href="#syl-device-usage-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="syl-device-usage-3">
+<ul class="disc" id="syl-device-usage-3-1">
+<li id="syl-device-usage-3-1-1">
+<div class="para" id="p-derived-syl-device-usage-3-1-1">
+<em class="emphasis">Cell Phones:</em> Cell phones are not acceptable for classwork and are incredibly distracting for me as an instructor and for others in the classroom. They are therefore prohibited entirely from classroom use—this includes when we are working individually or in small groups. If you need to use your cell phone for some reason, please leave the classroom entirely—I will assume that whatever you need to do on your phone is more pressing than what we are doing in class.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-device-usage-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-device-usage-3-1-2">
+<div class="para" id="p-derived-syl-device-usage-3-1-2">
+<em class="emphasis">Laptops/Tablets</em>: Since laptops and other devices can be used for both academic and other activities, please be sure to use them for our class activities while in class so that you do miss important information that may not be easily repeated.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-device-usage-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="syl-device-usage-3-1-3">
+<div class="para" id="p-derived-syl-device-usage-3-1-3">
+<em class="emphasis">Headphones</em>: Please do not use headphones while we are in classroom discussion or small-group work, but there may be some limited opportunity to do this while doing individual work. If you need an accommodation beyond this, please let me know.</div>
+<div class="autopermalink" data-description="Item"><a href="#syl-device-usage-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#syl-device-usage-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Laptop, Cell Phone, Headphone, and Other Device Usage"><a href="#syl-device-usage" title="Copy heading and permalink for Section: Laptop, Cell Phone, Headphone, and Other Device Usage" aria-label="Copy heading and permalink for Section: Laptop, Cell Phone, Headphone, and Other Device Usage">🔗</a></div></section><section class="section" id="syl-asynchronous"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Asynchronous Class</span>
+</h3>
+<div class="para" id="syl-asynchronous-2">Rather than introduce new material in our fourth asynchronous class hour, this hour should be used to complete reading and assignments for the upcoming class period, which will often be more substantial than those due at other times in the week.<div class="autopermalink" data-description="Paragraph"><a href="#syl-asynchronous-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Asynchronous Class"><a href="#syl-asynchronous" title="Copy heading and permalink for Section: Asynchronous Class" aria-label="Copy heading and permalink for Section: Asynchronous Class">🔗</a></div></section><section class="section" id="syl-reading-note"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Important Note about the Reading</span>
+</h3>
+<div class="para" id="syl-reading-note-2">You must do all of the assigned reading to gain basic knowledge and to lay the foundation for your own learning. Since we aim to spend much of our class time working through concepts, we may only briefly overview the reading at times, but it is crucial that you complete this reading so that you have a basic understanding of these concepts coming into class. You will be responsible for multiple quizzes to help ensure you have a sense of core concepts.<div class="autopermalink" data-description="Paragraph"><a href="#syl-reading-note-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Important Note about the Reading"><a href="#syl-reading-note" title="Copy heading and permalink for Section: Important Note about the Reading" aria-label="Copy heading and permalink for Section: Important Note about the Reading">🔗</a></div></section><section class="section" id="syl-honesty"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Academic Honesty</span>
+</h3>
+<div class="para" id="syl-honesty-2">Your work must comply with the College Policy Regarding Academic Honesty stated in the College Catalogue. Plagiarism, the use of someone else’s words or ideas as if they were your own, is a serious offense. Consult the Writing Guide at CASA for definitions of plagiarism and examples of correct ways to document summaries, paraphrases, or quotations from the work of others. The penalties for plagiarism vary according to the extent of the offense. <em class="emphasis">A completely plagiarized essay will result in an F for the whole course.</em><div class="autopermalink" data-description="Paragraph"><a href="#syl-honesty-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Academic Honesty"><a href="#syl-honesty" title="Copy heading and permalink for Section: Academic Honesty" aria-label="Copy heading and permalink for Section: Academic Honesty">🔗</a></div></section><section class="section" id="syl-support"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Disability and Support Services</span>
+</h3>
+<div class="para" id="syl-support-2">Framingham State University offers equal opportunities to all qualified students, including those with disabilities and impairments. The University is committed to making reasonable accommodations as are necessary to ensure that its programs and activities do not discriminate, or have the effect of discriminating, on the basis of disability. The Center for Academic Success and Achievement (CASA) serves students with learning and psychiatric disabilities as well as students with visual, mobility, and hearing impairments.<div class="autopermalink" data-description="Paragraph"><a href="#syl-support-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Disability and Support Services"><a href="#syl-support" title="Copy heading and permalink for Section: Disability and Support Services" aria-label="Copy heading and permalink for Section: Disability and Support Services">🔗</a></div></section><section class="section" id="syl-difficult-material"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Difficult Course Material</span>
+</h3>
+<div class="para" id="syl-difficult-material-2">We will encounter a variety of material over the course of this semester— some of which might include disturbing language and themes. I encourage you to keep an open mind about course material and to speak with me about any concerns that you may have.<div class="autopermalink" data-description="Paragraph"><a href="#syl-difficult-material-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Difficult Course Material"><a href="#syl-difficult-material" title="Copy heading and permalink for Section: Difficult Course Material" aria-label="Copy heading and permalink for Section: Difficult Course Material">🔗</a></div></section><section class="section" id="syl-email"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Email Responses</span>
+</h3>
+<div class="para" id="syl-email-2">I am happy to answer short questions through email. You should, however, consider your email a professional electronic communication—and practice for professional communications you will be sending in the future—so that you formally address me, use full sentences with correct spelling and punctuation, and append your name at the end.<div class="autopermalink" data-description="Paragraph"><a href="#syl-email-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Email Responses"><a href="#syl-email" title="Copy heading and permalink for Section: Email Responses" aria-label="Copy heading and permalink for Section: Email Responses">🔗</a></div></section><section class="section" id="syl-office-hours"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Office Hours</span>
+</h3>
+<div class="para" id="syl-office-hours-2">One-on-one discussion during office hours is one of the most important, and generally underutilized, resources available to students. It allows you to develop a rapport with your instructor, where you can receive clarification and elaboration on ideas presented in class, where you can better understand their expectations for you and for the course, and—just as importantly—where you can allow them to get to know you on a more personal level.<div class="autopermalink" data-description="Paragraph"><a href="#syl-office-hours-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Office Hours"><a href="#syl-office-hours" title="Copy heading and permalink for Section: Office Hours" aria-label="Copy heading and permalink for Section: Office Hours">🔗</a></div></section><section class="section" id="syl-recording"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Recording Classes</span>
+</h3>
+<div class="para" id="syl-recording-2">Access to video and audio recordings in this class is for personal educational use only and is available only to individuals currently enrolled in the class, unless faculty permission is expressly granted. Recording and/or sharing course materials, including video and audio files, without the written consent of the course instructor is a violation of University policies and will be reported for further action.<div class="autopermalink" data-description="Paragraph"><a href="#syl-recording-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Recording Classes"><a href="#syl-recording" title="Copy heading and permalink for Section: Recording Classes" aria-label="Copy heading and permalink for Section: Recording Classes">🔗</a></div></section><section class="section" id="syl-land-acknowledgement"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Land Acknowledgement</span>
+</h3>
+<div class="para" id="syl-land-acknowledgement-2">We acknowledge that the land we live, work, learn, and commune on is the original homeland of the Nipmuc tribal nations. We acknowledge the painful history of genocide and forced removal from this territory, and we honor and respect the many diverse Indigenous peoples still connected to this land on which we gather.<div class="autopermalink" data-description="Paragraph"><a href="#syl-land-acknowledgement-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Land Acknowledgement"><a href="#syl-land-acknowledgement" title="Copy heading and permalink for Section: Land Acknowledgement" aria-label="Copy heading and permalink for Section: Land Acknowledgement">🔗</a></div></section><section class="section" id="syl-antiracism"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Antiracism Commitment</span>
+</h3>
+<div class="para" id="syl-antiracism-2">At Framingham State University, faculty, staff, and students work together to sustain a learning, working, and living community free from hate, discrimination, harassment, and intolerance. We recognize the damaging effects of systemic racism—including policies, structures, and historic practices—on the experience and success of communities of color. Diversity of voices, and of minds, strengthens our ability to solve problems and to ask and answer questions about the world we share.<div class="autopermalink" data-description="Paragraph"><a href="#syl-antiracism-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Antiracism Commitment"><a href="#syl-antiracism" title="Copy heading and permalink for Section: Antiracism Commitment" aria-label="Copy heading and permalink for Section: Antiracism Commitment">🔗</a></div></section><section class="section" id="syl-ai-policy"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Artificial Intelligence Use</span>
+</h3>
+<div class="para" id="syl-ai-policy-2">As generative and agentic AI become increasingly common, you will be expected to be proficient in these technologies during your time at FSU and in your future careers. To help you gain this proficiency, you will have multiple opportunities to learn about and with AI in this course. This learning involves not only delivering AI-assisted products, but also demonstrating intellectual processes and developing habits of mind that will allow you to most effectively and critically work with AI. You are therefore encouraged to use AI in this course as appropriate, but need to be transparent in how you do so, acknowledging how and when you use it.<div class="autopermalink" data-description="Paragraph"><a href="#syl-ai-policy-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Artificial Intelligence Use"><a href="#syl-ai-policy" title="Copy heading and permalink for Section: Artificial Intelligence Use" aria-label="Copy heading and permalink for Section: Artificial Intelligence Use">🔗</a></div></section><section class="section" id="syl-revisions"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Syllabus Adaptations and Revisions</span>
+</h3>
+<div class="para" id="syl-revisions-2">While I don’t expect to make major changes to the syllabus, I also want to be attentive to the particular needs of the class. Therefore, it is quite possible that I will add some sample projects to help further clarify our understanding of core concepts. I will give you as much notice about this as I can.<div class="autopermalink" data-description="Paragraph"><a href="#syl-revisions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Syllabus Adaptations and Revisions"><a href="#syl-revisions" title="Copy heading and permalink for Section: Syllabus Adaptations and Revisions" aria-label="Copy heading and permalink for Section: Syllabus Adaptations and Revisions">🔗</a></div></section><section class="section" id="syl-exceptions"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Policy Exceptions</span>
+</h3>
+<div class="para" id="syl-exceptions-2">I understand that things come up. You may unexpectedly be absent for a week due to an illness or family emergency. Some of you may be uncomfortable speaking in front of others, but don’t feel that this is an indication of your preparedness. Please come speak to me. I am happy to work with you and to best facilitate your learning, but will best be able to do so if we can come to an agreement at the outset of the course, or as soon as an issue arises.<div class="autopermalink" data-description="Paragraph"><a href="#syl-exceptions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section: Policy Exceptions"><a href="#syl-exceptions" title="Copy heading and permalink for Section: Policy Exceptions" aria-label="Copy heading and permalink for Section: Policy Exceptions">🔗</a></div></section><section class="section" id="syl-schedule"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Schedule</span>
+</h3>
+<section class="subsection" id="syl-week-1"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week One (1/19-1/23): Introductions and Digital Basics</span>
+</h4>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">DH LOs</td>
+<td class="l m b1 r1 l0 t1 lines">Gain familiarity with course, instructor, and students. Identify course objectives and expectations.</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Activities</td>
+<td class="l m b1 r1 l0 t0 lines">Icebreaker. Course Overview. Review syllabus. Discuss digital humanities.</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Response</td>
+<td class="l m b1 r1 l0 t0 lines">Beginning of Course Survey (due 1/22)</td>
+</tr>
+</table></div>
+<div class="para" id="syl-week-1-3">T (1/20): Introductions and Course Overview<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="syl-week-1-4">R (1/22): Digital Basics<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines"><a class="external" href="https://edu.gcfglobal.org/en/computerbasics/getting-to-know-the-os/1/" target="_blank">Getting to Know your Computer’s OS</a></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Activities</td>
+<td class="l m b1 r1 l0 t0 lines">OS pair and share. Play with Interfaces.</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Response</td>
+<td class="l m b1 r1 l0 t0 lines">Interface (due 1/27).</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week One (1/19-1/23): Introductions and Digital Basics"><a href="#syl-week-1" title="Copy heading and permalink for Subsection: Week One (1/19-1/23): Introductions and Digital Basics" aria-label="Copy heading and permalink for Subsection: Week One (1/19-1/23): Introductions and Digital Basics">🔗</a></div></section><section class="subsection" id="syl-week-2"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Two (1/26-1/30): Digital Humanities and Data/Metadata</span>
+</h4>
+<div class="para" id="syl-week-2-2">T (1/27): Digital Humanities Overview<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">DH LOs</td>
+<td class="l m b1 r1 l0 t1 lines">Identify key aspects of DH (Materials, Processing, Presentation). Begin to understand critical digital humanities.</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Readings</td>
+<td class="l m b1 r1 l0 t0 lines">Drucker: “Digital Humanities Overview” (DHC, 1-8)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Resources</td>
+<td class="l m b1 r1 l0 t0 lines">
+<a class="external" href="https://www.slavevoyages.org/" target="_blank">Slave Voyages</a>, <a class="external" href="https://coloredconventions.org/" target="_blank">Colored Conventions Project</a>
+</td>
+</tr>
+</table></div>
+<div class="para" id="syl-week-2-4">R (1/29): Data and Metadata<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">DH LOs</td>
+<td class="l m b1 r1 l0 t1 lines">Identify data formats and modeling. Obtain and annotate images.</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Readings</td>
+<td class="l m b1 r1 l0 t0 lines">Drucker: “Data Modeling and Use” (19-27) and “Metadata and Classification” (52-61)</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Two (1/26-1/30): Digital Humanities and Data/Metadata"><a href="#syl-week-2" title="Copy heading and permalink for Subsection: Week Two (1/26-1/30): Digital Humanities and Data/Metadata" aria-label="Copy heading and permalink for Subsection: Week Two (1/26-1/30): Digital Humanities and Data/Metadata">🔗</a></div></section><section class="subsection" id="syl-week-3"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Three (2/2-2/6): Data Visualization</span>
+</h4>
+<div class="para" id="syl-week-3-2">T (2/3): Data Visualization<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Drucker: “Basics of Visualization” (86-101)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Activities</td>
+<td class="l m b1 r1 l0 t0 lines">Create Data Visualizations with Google Sheets</td>
+</tr>
+</table></div>
+<div class="para" id="syl-week-3-4">R (2/5): Networks<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Drucker: “Networks and Complex Systems” (101-109)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Resources</td>
+<td class="l m b1 r1 l0 t0 lines"><a class="external" href="https://csacademy.com/app/graph_editor" target="_blank">CS Academy Graph Editor</a></td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Three (2/2-2/6): Data Visualization"><a href="#syl-week-3" title="Copy heading and permalink for Subsection: Week Three (2/2-2/6): Data Visualization" aria-label="Copy heading and permalink for Subsection: Week Three (2/2-2/6): Data Visualization">🔗</a></div></section><section class="subsection" id="syl-week-4"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Four (2/9-2/13): Temporal-Spatial Visualization</span>
+</h4>
+<div class="para" id="syl-week-4-2">T (2/10): Timelines<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines"><a class="external" href="https://timeline.knightlab.com/" target="_blank">Timeline.js</a></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Activities</td>
+<td class="l m b1 r1 l0 t0 lines">Create a timeline individually and as a class.</td>
+</tr>
+</table></div>
+<div class="para" id="syl-week-4-4">R (2/12): Mapping<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">“Mapping and GIS” (DHC, 130-150)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Resources</td>
+<td class="l m b1 r1 l0 t0 lines">
+<a class="external" href="https://dsl.richmond.edu/panorama/redlining/" target="_blank">Mapping Inequality</a>, ArcGIS Online</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Four (2/9-2/13): Temporal-Spatial Visualization"><a href="#syl-week-4" title="Copy heading and permalink for Subsection: Week Four (2/9-2/13): Temporal-Spatial Visualization" aria-label="Copy heading and permalink for Subsection: Week Four (2/9-2/13): Temporal-Spatial Visualization">🔗</a></div></section><section class="subsection" id="syl-week-5"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Five (2/16-2/20): Data Mining and Text Analysis</span>
+</h4>
+<div class="para" id="syl-week-5-2">T (2/17): Data Mining<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">“Data Mining and Text Analysis” (DHC, 110-120)</td>
+</tr></table></div>
+<div class="para" id="syl-week-5-4">R (2/19): Voyant Tools<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-5-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Activities</td>
+<td class="l m b1 r1 l0 t1 lines">Create and interpret visualizations using Voyant Tools.</td>
+</tr></table></div>
+<div class="autopermalink" data-description="Subsection: Week Five (2/16-2/20): Data Mining and Text Analysis"><a href="#syl-week-5" title="Copy heading and permalink for Subsection: Week Five (2/16-2/20): Data Mining and Text Analysis" aria-label="Copy heading and permalink for Subsection: Week Five (2/16-2/20): Data Mining and Text Analysis">🔗</a></div></section><section class="subsection" id="syl-week-6"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Six (2/23-2/27): Introducing AI</span>
+</h4>
+<div class="para" id="syl-week-6-2">T (2/24): AI Chatbots<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Activities</td>
+<td class="l m b1 r1 l0 t1 lines">Discuss AI usage and practice using chatbots (Gemini, ChatGPT).</td>
+</tr></table></div>
+<div class="para" id="syl-week-6-4">R (2/26): AI Under the Hood<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Kneusel: “And Away We Go: An AI Overview” (5-23)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Resources</td>
+<td class="l m b1 r1 l0 t0 lines">Iris, MNIST, and Fashion MNIST datasets.</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Six (2/23-2/27): Introducing AI"><a href="#syl-week-6" title="Copy heading and permalink for Subsection: Week Six (2/23-2/27): Introducing AI" aria-label="Copy heading and permalink for Subsection: Week Six (2/23-2/27): Introducing AI">🔗</a></div></section><section class="subsection" id="syl-week-7"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Seven (3/2-3/6): Neural Networks</span>
+</h4>
+<div class="para" id="syl-week-7-2">T (3/3): Neural Networks I<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Resources</td>
+<td class="l m b1 r1 l0 t1 lines">Tensorflow Playground, Transformer Explainer</td>
+</tr></table></div>
+<div class="para" id="syl-week-7-4">R (3/5): Neural Networks II<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Bender &amp; Hannah: “How Large Language Models Actually Work”</td>
+</tr></table></div>
+<div class="autopermalink" data-description="Subsection: Week Seven (3/2-3/6): Neural Networks"><a href="#syl-week-7" title="Copy heading and permalink for Subsection: Week Seven (3/2-3/6): Neural Networks" aria-label="Copy heading and permalink for Subsection: Week Seven (3/2-3/6): Neural Networks">🔗</a></div></section><section class="subsection" id="syl-week-8"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Eight (3/9-3/13): Midterm Exam</span>
+</h4>
+<div class="para" id="syl-week-8-2">In-class Midterm Exam held this week.<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Week Eight (3/9-3/13): Midterm Exam"><a href="#syl-week-8" title="Copy heading and permalink for Subsection: Week Eight (3/9-3/13): Midterm Exam" aria-label="Copy heading and permalink for Subsection: Week Eight (3/9-3/13): Midterm Exam">🔗</a></div></section><section class="subsection" id="syl-week-9"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Nine (3/16-3/20): Spring Break</span>
+</h4>
+<div class="para" id="syl-week-9-2">No classes held during Spring Break.<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Week Nine (3/16-3/20): Spring Break"><a href="#syl-week-9" title="Copy heading and permalink for Subsection: Week Nine (3/16-3/20): Spring Break" aria-label="Copy heading and permalink for Subsection: Week Nine (3/16-3/20): Spring Break">🔗</a></div></section><section class="subsection" id="syl-week-10"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Ten (3/23-3/27): Prompt Engineering I</span>
+</h4>
+<div class="para" id="syl-week-10-2">T (3/24): Inside the AI’s Mind<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Bouchentouf: Intro &amp; Chapter 1 (PR, 7-54)</td>
+</tr></table></div>
+<div class="para" id="syl-week-10-4">R (3/26): Clarity and Objectives<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-10-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Bouchentouf: Chapter 2 (55-89)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Response</td>
+<td class="l m b1 r1 l0 t0 lines">SMARTE Objective and 5W+H</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Ten (3/23-3/27): Prompt Engineering I"><a href="#syl-week-10" title="Copy heading and permalink for Subsection: Week Ten (3/23-3/27): Prompt Engineering I" aria-label="Copy heading and permalink for Subsection: Week Ten (3/23-3/27): Prompt Engineering I">🔗</a></div></section><section class="subsection" id="syl-week-11"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Eleven (3/30-4/3): Prompt Engineering II</span>
+</h4>
+<div class="para" id="syl-week-11-2">T (3/31): The Precision of Grammage<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Bouchentouf: Chapters 3 and 4 (90-146)</td>
+</tr></table></div>
+<div class="para" id="syl-week-11-4">R (4/2): Taste, Adjust, Repeat<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-11-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">Bouchentouf: Chapter 5 (147-171)</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Assignment</td>
+<td class="l m b1 r1 l0 t0 lines">AI Prompt Engineering due this week.</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Eleven (3/30-4/3): Prompt Engineering II"><a href="#syl-week-11" title="Copy heading and permalink for Subsection: Week Eleven (3/30-4/3): Prompt Engineering II" aria-label="Copy heading and permalink for Subsection: Week Eleven (3/30-4/3): Prompt Engineering II">🔗</a></div></section><section class="subsection" id="syl-week-12"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Twelve (4/6-4/10): Working with Visuals</span>
+</h4>
+<div class="para" id="syl-week-12-2">T (4/7): Image Annotation<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-12-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Resources</td>
+<td class="l m b1 r1 l0 t1 lines">ThingLink, Wikimedia Commons</td>
+</tr></table></div>
+<div class="para" id="syl-week-12-4">R (4/9): Generating AI Images<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-12-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">“Humans are Biased. Generative AI is Even Worse”</td>
+</tr></table></div>
+<div class="autopermalink" data-description="Subsection: Week Twelve (4/6-4/10): Working with Visuals"><a href="#syl-week-12" title="Copy heading and permalink for Subsection: Week Twelve (4/6-4/10): Working with Visuals" aria-label="Copy heading and permalink for Subsection: Week Twelve (4/6-4/10): Working with Visuals">🔗</a></div></section><section class="subsection" id="syl-week-13"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Thirteen (4/13-4/17): Games and Virtual Reality</span>
+</h4>
+<div class="para" id="syl-week-13-2">T (4/14): Games as Critique<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-13-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Resources</td>
+<td class="l m b1 r1 l0 t1 lines">Universal Paperclips, Survival of the Best Fit</td>
+</tr></table></div>
+<div class="para" id="syl-week-13-4">R (4/16): 3D and Virtual Models<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-13-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Readings</td>
+<td class="l m b1 r1 l0 t1 lines">“Three-Dimensional and Virtual Models” (DHC, 151-171)</td>
+</tr></table></div>
+<div class="autopermalink" data-description="Subsection: Week Thirteen (4/13-4/17): Games and Virtual Reality"><a href="#syl-week-13" title="Copy heading and permalink for Subsection: Week Thirteen (4/13-4/17): Games and Virtual Reality" aria-label="Copy heading and permalink for Subsection: Week Thirteen (4/13-4/17): Games and Virtual Reality">🔗</a></div></section><section class="subsection" id="syl-week-14"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Fourteen (4/20-4/24): Markup Languages</span>
+</h4>
+<div class="para" id="syl-week-14-2">T (4/21): HTML and XML Encoding<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Resources</td>
+<td class="l m b1 r1 l0 t1 lines">Text Encoding Initiative (TEI), TAPAS Project</td>
+</tr></table></div>
+<div class="para" id="syl-week-14-4">R (4/23): Markdown and Twine<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-14-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines">Activities</td>
+<td class="l m b1 r1 l0 t1 lines">Create a simple Twine narrative/game.</td>
+</tr></table></div>
+<div class="autopermalink" data-description="Subsection: Week Fourteen (4/20-4/24): Markup Languages"><a href="#syl-week-14" title="Copy heading and permalink for Subsection: Week Fourteen (4/20-4/24): Markup Languages" aria-label="Copy heading and permalink for Subsection: Week Fourteen (4/20-4/24): Markup Languages">🔗</a></div></section><section class="subsection" id="syl-week-15"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Fifteen (4/27-5/1): StoryMap Essays</span>
+</h4>
+<div class="para" id="syl-week-15-2">T (4/28) &amp; R (4/30): Drafting StoryMap Essays<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-15-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Resources</td>
+<td class="l m b1 r1 l0 t1 lines">ArcGIS StoryMaps Gallery</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Activities</td>
+<td class="l m b1 r1 l0 t0 lines">Drafting and peer reviewing multimodal essays.</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Subsection: Week Fifteen (4/27-5/1): StoryMap Essays"><a href="#syl-week-15" title="Copy heading and permalink for Subsection: Week Fifteen (4/27-5/1): StoryMap Essays" aria-label="Copy heading and permalink for Subsection: Week Fifteen (4/27-5/1): StoryMap Essays">🔗</a></div></section><section class="subsection" id="syl-week-16"><h4 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week Sixteen (5/4-5/8): Final Review</span>
+</h4>
+<div class="para" id="syl-week-16-2">Final course review and StoryMap Essay due on 5/8.<div class="autopermalink" data-description="Paragraph"><a href="#syl-week-16-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Week Sixteen (5/4-5/8): Final Review"><a href="#syl-week-16" title="Copy heading and permalink for Subsection: Week Sixteen (5/4-5/8): Final Review" aria-label="Copy heading and permalink for Subsection: Week Sixteen (5/4-5/8): Final Review">🔗</a></div></section><div class="autopermalink" data-description="Section: Course Schedule"><a href="#syl-schedule" title="Copy heading and permalink for Section: Course Schedule" aria-label="Copy heading and permalink for Section: Course Schedule">🔗</a></div></section><div class="autopermalink" data-description="Chapter: DGHM 110: Introduction to Digital Humanities (Spring 2026)"><a href="#chapter-syllabus" title="Copy heading and permalink for Chapter: DGHM 110: Introduction to Digital Humanities (Spring 2026)" aria-label="Copy heading and permalink for Chapter: DGHM 110: Introduction to Digital Humanities (Spring 2026)">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="intro-dh.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="part-assignments.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
